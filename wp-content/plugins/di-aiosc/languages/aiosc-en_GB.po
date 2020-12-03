@@ -1,0 +1,3800 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AIO Support Center v2.1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-11-15 20:50:32+0000\n"
+"Last-Translator: frankbutler-2 <gorothan@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: class/class.attachment-manager.php:21
+#@ aiosc
+msgid "<strong>Error:</strong> File uploads are disabled by system."
+msgstr ""
+
+#: class/class.attachment-manager.php:22
+#@ aiosc
+msgid "<strong>Error:</strong> You don't have the right permission to upload files."
+msgstr ""
+
+#: class/class.attachment-manager.php:36
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Maximum files you can upload while creating ticket is %d but you attached %d."
+msgstr ""
+
+#: class/class.attachment-manager.php:38
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Maximum files you can upload while posting reply is %d but you attached %d."
+msgstr ""
+
+#: class/class.attachment-manager.php:48
+#: class/class.attachment-manager.php:55
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> File <code>%s</code> exceeds maximum filesize limit."
+msgstr ""
+
+#: class/class.attachment-manager.php:60
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> File <code>%s</code> | No temporary directory."
+msgstr ""
+
+#: class/class.attachment-manager.php:62
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> File <code>%s</code> | Cant write to disk."
+msgstr ""
+
+#: class/class.attachment-manager.php:64
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> File <code>%s</code> | Only partially uploaded"
+msgstr ""
+
+#: class/class.attachment-manager.php:66
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> File <code>%s</code> | A PHP extension stopped the file upload."
+msgstr ""
+
+#: class/class.attachment-manager.php:68
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> File <code>%s</code> could not be uploaded due to unknown reason. | %s"
+msgstr ""
+
+#: class/class.attachment-manager.php:77
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> File <code>%s</code> has invalid extension."
+msgstr ""
+
+#: class/class.attachment-manager.php:85
+#@ aiosc
+msgid "<strong>Error:</strong> Files could not be uploaded due to unknown reason."
+msgstr ""
+
+#: class/class.attachment-manager.php:93
+#: class/class.attachment-manager.php:97
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> File <code>%s</code> could not be uploaded due to unknown reason."
+msgstr ""
+
+#: class/class.attachment-manager.php:105
+#, php-format
+#@ aiosc
+msgid "Total of %d files were uploaded successfully."
+msgstr ""
+
+#: class/class.attachment-manager.php:109
+#@ aiosc
+msgid "<strong>Error:</strong> Files could not be uploaded due to unknown error."
+msgstr ""
+
+#: class/class.capabilities.php:23
+#@ aiosc
+msgid "Supervisor"
+msgstr ""
+
+#: class/class.capabilities.php:53
+#@ aiosc
+msgid "Moderator"
+msgstr ""
+
+#: class/class.capabilities.php:82
+#@ aiosc
+msgid "Ticket Operator"
+msgstr ""
+
+#: class/class.capabilities.php:101
+#@ aiosc
+msgid "Exclusive Customer"
+msgstr ""
+
+#: class/class.capabilities.php:113
+#: inc/vars.php:70
+#@ aiosc
+msgid "Customer"
+msgstr ""
+
+#: class/class.capabilities.php:147
+#: templates/admin/preferences/cron/auto-close.php:132
+#: templates/admin/preferences/cron/reminder-queue.php:67
+#@ aiosc
+msgid "None"
+msgstr ""
+
+#: class/class.capabilities.php:208
+#@ aiosc
+msgid "Activation completed."
+msgstr ""
+
+#: class/class.capabilities.php:233
+#@ aiosc
+msgid "In progress..."
+msgstr ""
+
+#: class/class.department-manager.php:30
+#@ aiosc
+msgid "<strong>Error:</strong> Department name is missing."
+msgstr ""
+
+#: class/class.department-manager.php:33
+#: class/class.department-manager.php:36
+#@ aiosc
+msgid "<strong>Error:</strong> Department name already exists. Please choose another one."
+msgstr ""
+
+#: class/class.department-manager.php:40
+#@ aiosc
+msgid "<strong>Error:</strong> In order to be <strong>active</strong>, department must have at least one active operator assigned to it."
+msgstr ""
+
+#: class/class.department-manager.php:67
+#, php-format
+#@ aiosc
+msgid "Department <strong>&quot;%s&quot;</strong> has been created."
+msgstr ""
+
+#: class/class.department-manager.php:75
+#, php-format
+#@ aiosc
+msgid "Department <strong>&quot;%s&quot;</strong> has been updated."
+msgstr ""
+
+#: class/class.department-manager.php:131
+#@ aiosc
+msgid "<strong>Error:</strong> Department you are moving data to cannot be the same as the one you are trying to delete."
+msgstr ""
+
+#: class/class.department-manager.php:133
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Department with ID <code>%d</code> does not exist."
+msgstr ""
+
+#: class/class.department-manager.php:140
+#@ aiosc
+msgid "<strong>Error:</strong> Department you are moving data to does not exist."
+msgstr ""
+
+#: class/class.department-manager.php:163
+#, php-format
+#@ aiosc
+msgid "Department &quot;%s&quot; was deleted successfully. Total of %d tickets and %d Operators were moved to &quot;%s&quot; department."
+msgstr ""
+
+#: class/class.department-manager.php:166
+#, php-format
+#@ aiosc
+msgid "Department &quot;%s&quot; was deleted successfully."
+msgstr ""
+
+#: class/class.department-manager.php:182
+#, php-format
+#@ aiosc
+msgid "Total of %d departments were activated successfully."
+msgstr ""
+
+#: class/class.department-manager.php:184
+#, php-format
+#@ aiosc
+msgid "Total of %d departments were deactivated successfully."
+msgstr ""
+
+#: class/class.department-manager.php:186
+#@ aiosc
+msgid "No departments were selected so no action was taken."
+msgstr ""
+
+#: class/class.department-manager.php:200
+#@ aiosc
+msgid "General Questions"
+msgstr ""
+
+#: class/class.department-manager.php:201
+#@ aiosc
+msgid "This is default department created on AIOSC installation."
+msgstr ""
+
+#: class/class.premade-response-manager.php:6
+#@ aiosc
+msgid "<strong>Error:</strong> Pre-made Response must have a name."
+msgstr ""
+
+#: class/class.premade-response-manager.php:14
+#: class/class.premade-response-manager.php:19
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Pre-made Response with &quot;%s&quot; name already exists. To avoid confusion later, please choose unique name."
+msgstr ""
+
+#: class/class.premade-response-manager.php:36
+#, php-format
+#@ aiosc
+msgid "Pre-made Response <strong>&quot;%s&quot;</strong> has been created."
+msgstr ""
+
+#: class/class.premade-response-manager.php:44
+#, php-format
+#@ aiosc
+msgid "Pre-made Response <strong>&quot;%s&quot;</strong> has been updated."
+msgstr ""
+
+#: class/class.premade-response-manager.php:85
+#, php-format
+#@ aiosc
+msgid "Total of <code>%s</code> Pre-made Responses were deleted successfully."
+msgstr ""
+
+#: class/class.premade-response-manager.php:87
+#@ aiosc
+msgid "Pre-made Response was deleted successfully."
+msgstr ""
+
+#: class/class.premade-response-manager.php:124
+#, php-format
+#@ aiosc
+msgid "Total of <code>%s</code> Pre-made Responses are shared."
+msgstr ""
+
+#: class/class.premade-response-manager.php:126
+#, php-format
+#@ aiosc
+msgid "Total of <code>%s</code> Pre-made Responses are made private."
+msgstr ""
+
+#: class/class.premade-response-manager.php:131
+#@ aiosc
+msgid "Pre-made Response is shared."
+msgstr ""
+
+#: class/class.premade-response-manager.php:133
+#@ aiosc
+msgid "Pre-made Response is made private."
+msgstr ""
+
+#: class/class.priority-manager.php:21
+#@ aiosc
+msgid "<strong>Error:</strong> Priority name is missing."
+msgstr ""
+
+#: class/class.priority-manager.php:26
+#: class/class.priority-manager.php:29
+#@ aiosc
+msgid "<strong>Error:</strong> Priority name already exists. Please choose another one."
+msgstr ""
+
+#: class/class.priority-manager.php:51
+#, php-format
+#@ aiosc
+msgid "Priority <strong>&quot;%s&quot;</strong> has been created."
+msgstr ""
+
+#: class/class.priority-manager.php:66
+#, php-format
+#@ aiosc
+msgid "Priority <strong>&quot;%s&quot;</strong> has been updated."
+msgstr ""
+
+#: class/class.priority-manager.php:123
+#@ aiosc
+msgid "<strong>Error:</strong> Priority you are moving data to cannot be the same as the one you are trying to delete."
+msgstr ""
+
+#: class/class.priority-manager.php:125
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Priority with ID <code>%d</code> does not exist."
+msgstr ""
+
+#: class/class.priority-manager.php:131
+#@ aiosc
+msgid "<strong>Error:</strong> Priority you are moving data to does not exist."
+msgstr ""
+
+#: class/class.priority-manager.php:146
+#, php-format
+#@ aiosc
+msgid "Priority &quot;%s&quot; was deleted successfully. Total of %d tickets were moved to &quot;%s&quot; priority."
+msgstr ""
+
+#: class/class.priority-manager.php:149
+#, php-format
+#@ aiosc
+msgid "Priority &quot;%s&quot; was deleted successfully."
+msgstr ""
+
+#: class/class.priority-manager.php:164
+#, php-format
+#@ aiosc
+msgid "Total of %d priorities were activated successfully."
+msgstr ""
+
+#: class/class.priority-manager.php:166
+#, php-format
+#@ aiosc
+msgid "Total of %d priorities were deactivated successfully."
+msgstr ""
+
+#: class/class.priority-manager.php:168
+#@ aiosc
+msgid "No priorities were selected so no action was taken."
+msgstr ""
+
+#: class/class.priority-manager.php:181
+#@ aiosc
+msgid "No Priority"
+msgstr ""
+
+#: class/class.priority-manager.php:182
+#@ aiosc
+msgid "This is default priority created on AIOSC installation."
+msgstr ""
+
+#: class/class.reply-manager.php:25
+#@ aiosc
+msgid "<strong>Error:</strong> You must wait some time until you can post a new reply."
+msgstr ""
+
+#: class/class.reply-manager.php:29
+#@ aiosc
+msgid "<strong>Error:</strong> Ticket doesn't exist or is closed for replies."
+msgstr ""
+
+#: class/class.reply-manager.php:39
+#: class/class.ticket-manager.php:63
+#@ aiosc
+msgid "<strong>Error:</strong> Description is too short. Please write a more constructive description."
+msgstr ""
+
+#: class/class.reply-manager.php:74
+#, php-format
+#@ aiosc
+msgid "Reply <code>#%s</code> updated successfully."
+msgstr ""
+
+#: class/class.reply-manager.php:106
+#@ aiosc
+msgid "Reply was posted successfully."
+msgstr ""
+
+#: class/class.reply-manager.php:108
+#@ aiosc
+msgid "<strong>Error:</strong> Reply could not be created for unknown reason."
+msgstr ""
+
+#: class/class.reply-manager.php:230
+#, php-format
+#@ aiosc
+msgid "Reply <code>%s</code> was removed successfully."
+msgstr ""
+
+#: class/class.settings.php:86
+#@ aiosc
+msgid "Ticket closed upon request."
+msgstr ""
+
+#: class/class.settings.php:87
+#@ aiosc
+msgid "Ticket closed due to inactivity."
+msgstr ""
+
+#: class/class.settings.php:115
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] New Ticket Created"
+msgstr ""
+
+#: class/class.settings.php:116
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] You got a new reply!"
+msgstr ""
+
+#: class/class.settings.php:117
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] Your ticket has been closed"
+msgstr ""
+
+#: class/class.settings.php:118
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] Your ticket is re-opened"
+msgstr ""
+
+#: class/class.settings.php:125
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] You've been assigned to new ticket"
+msgstr ""
+
+#: class/class.settings.php:126
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] Customer posted a new reply"
+msgstr ""
+
+#: class/class.settings.php:127
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] Customer requested closure"
+msgstr ""
+
+#: class/class.settings.php:128
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] Customer has reopened this ticket"
+msgstr ""
+
+#: class/class.settings.php:135
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] We haven't heard back from you..."
+msgstr ""
+
+#: class/class.settings.php:136
+#, php-format
+#@ aiosc
+msgid "[Ticket #{%ticket.id%}] We haven't forgotten about you!"
+msgstr ""
+
+#: class/class.ticket-manager.php:49
+#@ aiosc
+msgid "<strong>Error:</strong> You must wait some time until you can create new ticket."
+msgstr ""
+
+#: class/class.ticket-manager.php:58
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Subject is too short. Minimum length is %d characters."
+msgstr ""
+
+#: class/class.ticket-manager.php:68
+#@ aiosc
+msgid "<strong>Error:</strong> Please select an department."
+msgstr ""
+
+#: class/class.ticket-manager.php:71
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Department &quot;%s&quot; is not operating at the moment. Please choose another department."
+msgstr ""
+
+#: class/class.ticket-manager.php:76
+#@ aiosc
+msgid "<strong>Error:</strong> Please select a priority."
+msgstr ""
+
+#: class/class.ticket-manager.php:79
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Priority &quot;%s&quot; is not operating at the moment. Please choose another priority."
+msgstr ""
+
+#: class/class.ticket-manager.php:123
+#, php-format
+#@ aiosc
+msgid "Ticket <code>#%s</code> updated successfully. You might have to <a href=\"%s\">refresh</a> the page to see some changes."
+msgstr ""
+
+#: class/class.ticket-manager.php:133
+#, php-format
+#@ aiosc
+msgid ""
+"Ticket could not be created for Author ID <strong>%s</strong> because user has no permission to create tickets.\n"
+"                <br />Please try another user or give this one correct role."
+msgstr ""
+
+#: class/class.ticket-manager.php:153
+#, php-format
+#@ aiosc
+msgid "Ticket created successfully. Click <a href=\"%s\">here</a> to view your ticket."
+msgstr ""
+
+#: class/class.ticket-manager.php:156
+#, php-format
+#@ aiosc
+msgid "<strong>Error:</strong> Ticket <code>#%s</code> could not be created for unknown reason.:<br />%s"
+msgstr ""
+
+#: class/class.ticket-manager.php:172
+#@ aiosc
+msgid "Your request has been received. Page will refresh soon..."
+msgstr ""
+
+#: class/class.ticket-manager.php:189
+#, php-format
+#@ aiosc
+msgid "Ticket <code>#%s</code> has been closed. Please <a href=\"%s\">refresh</a> the page."
+msgstr ""
+
+#: class/class.ticket-manager.php:218
+#, php-format
+#@ aiosc
+msgid "Ticket <code>#%s</code> was re-opened successfully. Please <a href=\"%s\">refresh</a> the page."
+msgstr ""
+
+#: class/class.ticket-manager.php:232
+#@ aiosc
+msgid "Tickets could not be updated because selected department does not exist or is inactive."
+msgstr ""
+
+#: class/class.ticket-manager.php:233
+#@ aiosc
+msgid "Tickets could not be updated because selected priority does not exist or is inactive."
+msgstr ""
+
+#: class/class.ticket-manager.php:252
+#, php-format
+#@ aiosc
+msgid "Total of %d tickets were updated successfully."
+msgstr ""
+
+#: class/class.ticket-manager.php:254
+#@ aiosc
+msgid "Ticket was updated successfully."
+msgstr ""
+
+#: class/class.ticket-manager.php:256
+#: class/class.ticket-manager.php:275
+#@ aiosc
+msgid "No tickets were selected so no action was taken."
+msgstr ""
+
+#: class/class.ticket-manager.php:271
+#, php-format
+#@ aiosc
+msgid "Total of %d tickets were deleted successfully."
+msgstr ""
+
+#: class/class.ticket-manager.php:273
+#@ aiosc
+msgid "Ticket was deleted successfully."
+msgstr ""
+
+#: class/class.ticket.php:17
+#@ aiosc
+msgid "Operator did not leave any note about closure."
+msgstr ""
+
+#: class/class.ticket.php:19
+#: templates/admin/ticket/list/page.php:119
+#: templates/shortcodes/list/page.php:26
+#@ aiosc
+msgid "In Queue"
+msgstr ""
+
+#: class/class.ticket.php:20
+#: templates/admin/ticket/list/page.php:120
+#: templates/shortcodes/list/page.php:27
+#@ aiosc
+msgid "Open"
+msgstr ""
+
+#: class/class.ticket.php:21
+#: templates/admin/ticket/list/page.php:121
+#: templates/shortcodes/list/page.php:28
+#@ aiosc
+msgid "Closed"
+msgstr ""
+
+#: di-aiosc.php:23
+#@ aiosc
+msgid "<strong>Permission Error:</strong> You do not have permission for this action."
+msgstr ""
+
+#: inc/hooks.php:150
+#, php-format
+#@ aiosc
+msgid "You have %d new tickets in Queue"
+msgstr ""
+
+#: inc/hooks.php:186
+#@ aiosc
+msgid "Change AIOSC role to&hellip;"
+msgstr ""
+
+#: inc/hooks.php:188
+#@ aiosc
+msgid "Change AIOSC role to..."
+msgstr ""
+
+#: inc/hooks.php:192
+#@ aiosc
+msgid "Change"
+msgstr ""
+
+#: inc/hooks.php:224
+#@ aiosc
+msgid "AIOSC role"
+msgstr ""
+
+#: inc/hooks.php:225
+#: templates/admin/preferences/departments.php:32
+#: templates/admin/preferences/departments.php:44
+#: templates/admin/preferences/priorities.php:32
+#: templates/admin/preferences/priorities.php:44
+#: templates/admin/preferences/tickets.php:15
+#: templates/admin/preferences.php:29
+#: templates/admin/ticket/list/page.php:94
+#@ aiosc
+msgid "Tickets"
+msgstr ""
+
+#: inc/hooks.php:312
+#: inc/pages.php:36
+#@ aiosc
+msgid "AIO Support Center"
+msgstr ""
+
+#: inc/hooks.php:316
+#@ aiosc
+msgid "AIO Support Center Role"
+msgstr ""
+
+#: inc/hooks.php:319
+#@ aiosc
+msgid "- No role for this user -"
+msgstr ""
+
+#: inc/hooks.php:453
+#: inc/hooks.php:459
+#: inc/hooks.php:463
+#: templates/admin/ticket/list/table-confirm.php:89
+#@ aiosc
+msgid "- Pick operator -"
+msgstr ""
+
+#: inc/hooks.php:487
+#: inc/hooks.php:622
+#: inc/hooks.php:637
+#: inc/hooks_tools.php:33
+#@ aiosc
+msgid "<strong>Error:</strong> Selected tab doesn't exist."
+msgstr ""
+
+#: inc/hooks.php:938
+#: inc/hooks.php:950
+#@ aiosc
+msgid "Settings were saved successfully."
+msgstr ""
+
+#: inc/hooks.php:954
+#: inc/hooks.php:1014
+#@ aiosc
+msgid "Cheatin' huh?."
+msgstr ""
+
+#: inc/hooks.php:1010
+#@ aiosc
+msgid "Account Settings were saved successfully."
+msgstr ""
+
+#: inc/hooks_tools.php:60
+#@ aiosc
+msgid "<strong>Warning:</strong> Selected role is too high for mass-update. You can only use low-level roles from dropdown."
+msgstr ""
+
+#: inc/hooks_tools.php:83
+#, php-format
+#@ aiosc
+msgid "<strong>Update Current Roles:</strong> Total of %d user(s) were updated."
+msgstr ""
+
+#: inc/hooks_tools.php:104
+#, php-format
+#@ aiosc
+msgid "<strong>Old SC Role Removal:</strong> Total of %d user(s) were updated."
+msgstr ""
+
+#: inc/hooks_tools.php:111
+#@ aiosc
+msgid "<strong>Info:</strong> No action was taken."
+msgstr ""
+
+#: inc/hooks_tools.php:117
+#@ aiosc
+msgid "<strong>Error:</strong> Section doesn't exist."
+msgstr ""
+
+#: inc/more-addons.php:10
+#@ aiosc
+msgid "More Add-Ons"
+msgstr ""
+
+#: inc/pages.php:25
+#@ aiosc
+msgid "AIO Support Center - Finalize Activation"
+msgstr ""
+
+#: inc/pages.php:25
+#@ aiosc
+msgid "AIOSC<br />Finalize Activation"
+msgstr ""
+
+#: inc/pages.php:30
+#, php-format
+#@ aiosc
+msgid "Support %s"
+msgstr ""
+
+#: inc/pages.php:33
+#@ aiosc
+msgid "Support Center"
+msgstr ""
+
+#: inc/pages.php:38
+#@ aiosc
+msgid "AIO Support Center - All Tickets"
+msgstr ""
+
+#: inc/pages.php:38
+#@ aiosc
+msgid "All Tickets"
+msgstr ""
+
+#: inc/pages.php:40
+#@ aiosc
+msgid "AIO Support Center - Ticket Preview"
+msgstr ""
+
+#: inc/pages.php:40
+#@ aiosc
+msgid "Ticket Preview"
+msgstr ""
+
+#: inc/pages.php:43
+#@ aiosc
+msgid "AIO Support Center - My Account"
+msgstr ""
+
+#: inc/pages.php:43
+#: templates/admin/my-account.php:25
+#@ aiosc
+msgid "My Account"
+msgstr ""
+
+#: inc/pages.php:46
+#@ aiosc
+msgid "AIO Support Center - Create New"
+msgstr ""
+
+#: inc/pages.php:46
+#@ aiosc
+msgid "Create New"
+msgstr ""
+
+#: inc/pages.php:51
+#@ aiosc
+msgid "AIO Support Center - Preferences"
+msgstr ""
+
+#: inc/pages.php:51
+#: templates/admin/preferences.php:24
+#@ aiosc
+msgid "Preferences"
+msgstr ""
+
+#: inc/pages.php:52
+#@ aiosc
+msgid "AIO Support Center - Tools"
+msgstr ""
+
+#: inc/pages.php:52
+#: templates/admin/tools.php:4
+#@ aiosc
+msgid "Tools"
+msgstr ""
+
+#: inc/tools.php:212
+#@ aiosc
+msgid "ago"
+msgstr ""
+
+#: inc/tools.php:216
+#@ aiosc
+msgid "from now"
+msgstr ""
+
+#: inc/tools.php:222
+#@ aiosc
+msgid "just now"
+msgstr ""
+
+#: inc/tools.php:380
+#, php-format
+#@ aiosc
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tools.php:380
+#, php-format
+#@ aiosc
+msgid "total: %d"
+msgstr ""
+
+#: inc/tools.php:386
+#: inc/tools.php:390
+#@ aiosc
+msgid "Go to the first page"
+msgstr ""
+
+#: inc/tools.php:387
+#: inc/tools.php:391
+#@ aiosc
+msgid "Go to the previous page"
+msgstr ""
+
+#: inc/tools.php:395
+#@ aiosc
+msgid "Current page"
+msgstr ""
+
+#: inc/tools.php:396
+#, php-format
+#@ aiosc
+msgid "of <span class=\"total-pages\">%d</span>"
+msgstr ""
+
+#: inc/tools.php:400
+#: inc/tools.php:404
+#@ aiosc
+msgid "Go to the next page"
+msgstr ""
+
+#: inc/tools.php:401
+#: inc/tools.php:405
+#@ aiosc
+msgid "Go to the last page"
+msgstr ""
+
+#: inc/vars.php:33
+#@ aiosc
+msgid "Ticket"
+msgstr ""
+
+#: inc/vars.php:35
+#@ aiosc
+msgid "URL"
+msgstr ""
+
+#: inc/vars.php:36
+#@ aiosc
+msgid "Front-End URL"
+msgstr ""
+
+#: inc/vars.php:37
+#@ aiosc
+msgid "Dynamic URL"
+msgstr ""
+
+#: inc/vars.php:38
+#: inc/vars.php:62
+#: inc/vars.php:72
+#: inc/vars.php:84
+#: templates/admin/ticket/list/page.php:61
+#: templates/admin/ticket/list/table.php:43
+#: templates/admin/ticket/list/table.php:126
+#: templates/shortcodes/list/table.php:26
+#: templates/shortcodes/list/table.php:76
+#@ aiosc
+msgid "ID"
+msgstr ""
+
+#: inc/vars.php:39
+#@ aiosc
+msgid "Priority Name"
+msgstr ""
+
+#: inc/vars.php:40
+#@ aiosc
+msgid "Priority ID"
+msgstr ""
+
+#: inc/vars.php:41
+#@ aiosc
+msgid "Priority Level"
+msgstr ""
+
+#: inc/vars.php:42
+#@ aiosc
+msgid "Priority Color"
+msgstr ""
+
+#: inc/vars.php:43
+#@ aiosc
+msgid "Department Name"
+msgstr ""
+
+#: inc/vars.php:44
+#@ aiosc
+msgid "Department ID"
+msgstr ""
+
+#: inc/vars.php:45
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:22
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:22
+#: templates/admin/preferences/email-templates/customer-closure.php:25
+#: templates/admin/preferences/email-templates/customer-creation.php:25
+#: templates/admin/preferences/email-templates/customer-reopen.php:25
+#: templates/admin/preferences/email-templates/customer-reply.php:25
+#: templates/admin/preferences/email-templates/staff-closure.php:25
+#: templates/admin/preferences/email-templates/staff-creation.php:25
+#: templates/admin/preferences/email-templates/staff-reopen.php:26
+#: templates/admin/preferences/email-templates/staff-reply.php:25
+#: templates/admin/ticket/form.php:19
+#: templates/admin/ticket/list/table.php:50
+#: templates/admin/ticket/list/table.php:133
+#: templates/admin/ticket/single/page.php:29
+#: templates/shortcodes/list/table.php:32
+#: templates/shortcodes/list/table.php:82
+#: templates/shortcodes/new-form/form.php:17
+#@ aiosc
+msgid "Subject"
+msgstr ""
+
+#: inc/vars.php:46
+#: inc/vars.php:63
+#: templates/admin/my-account/premade-responses-new.php:34
+#@ aiosc
+msgid "Content"
+msgstr ""
+
+#: inc/vars.php:47
+#: templates/admin/ticket/list/page.php:64
+#: templates/admin/ticket/list/table.php:57
+#: templates/admin/ticket/list/table.php:140
+#: templates/shortcodes/list/table.php:38
+#: templates/shortcodes/list/table.php:88
+#@ aiosc
+msgid "Status"
+msgstr ""
+
+#: inc/vars.php:48
+#: templates/admin/my-account/premade-responses.php:32
+#: templates/admin/my-account/premade-responses.php:43
+#: templates/admin/preferences/departments.php:33
+#: templates/admin/preferences/departments.php:45
+#: templates/admin/preferences/priorities.php:33
+#: templates/admin/preferences/priorities.php:45
+#: templates/admin/ticket/list/page.php:87
+#: templates/admin/ticket/list/table.php:110
+#: templates/admin/ticket/list/table.php:193
+#: templates/admin/ticket/single/page.php:171
+#: templates/shortcodes/list/table.php:66
+#: templates/shortcodes/list/table.php:116
+#: templates/shortcodes/single/sidebar.php:64
+#@ aiosc
+msgid "Date Created"
+msgstr ""
+
+#: inc/vars.php:49
+#@ aiosc
+msgid "Date Open"
+msgstr ""
+
+#: inc/vars.php:50
+#@ aiosc
+msgid "Date Closed"
+msgstr ""
+
+#: inc/vars.php:51
+#: templates/admin/ticket/single/page.php:271
+#: templates/shortcodes/single/sidebar.php:167
+#@ aiosc
+msgid "Closure Note"
+msgstr ""
+
+#: inc/vars.php:52
+#@ aiosc
+msgid "Scheduled closure (days)"
+msgstr ""
+
+#: inc/vars.php:53
+#@ aiosc
+msgid "Scheduled closure (date)"
+msgstr ""
+
+#: inc/vars.php:54
+#@ aiosc
+msgid "Scheduled closure (date & time)"
+msgstr ""
+
+#: inc/vars.php:55
+#: inc/vars.php:65
+#@ aiosc
+msgid "Attachments Count"
+msgstr ""
+
+#: inc/vars.php:56
+#: inc/vars.php:66
+#@ aiosc
+msgid "Attachments Size (in Kb)"
+msgstr ""
+
+#: inc/vars.php:60
+#@ aiosc
+msgid "Reply"
+msgstr ""
+
+#: inc/vars.php:64
+#@ aiosc
+msgid "Date Posted"
+msgstr ""
+
+#: inc/vars.php:73
+#: inc/vars.php:85
+#@ aiosc
+msgid "First Name"
+msgstr ""
+
+#: inc/vars.php:74
+#: inc/vars.php:86
+#@ aiosc
+msgid "Last Name"
+msgstr ""
+
+#: inc/vars.php:75
+#: inc/vars.php:87
+#@ aiosc
+msgid "Display Name"
+msgstr ""
+
+#: inc/vars.php:76
+#: inc/vars.php:88
+#@ aiosc
+msgid "E-Mail Address"
+msgstr ""
+
+#: inc/vars.php:77
+#: inc/vars.php:89
+#@ aiosc
+msgid "AIOSC Role"
+msgstr ""
+
+#: inc/vars.php:78
+#: inc/vars.php:90
+#@ aiosc
+msgid "Profile URL"
+msgstr ""
+
+#: inc/vars.php:82
+#: templates/admin/ticket/list/page.php:80
+#: templates/admin/ticket/list/table.php:94
+#: templates/admin/ticket/list/table.php:177
+#: templates/admin/ticket/single/page.php:48
+#: templates/admin/ticket/single/page.php:146
+#: templates/shortcodes/single/sidebar.php:47
+#@ aiosc
+msgid "Operator"
+msgstr ""
+
+#: inc/vars.php:94
+#@ aiosc
+msgid "Miscellaneous"
+msgstr ""
+
+#: inc/vars.php:96
+#@ aiosc
+msgid "Site Name"
+msgstr ""
+
+#: inc/vars.php:97
+#@ aiosc
+msgid "Site URL"
+msgstr ""
+
+#: inc/vars.php:98
+#@ aiosc
+msgid "Login URL"
+msgstr ""
+
+#: inc/vars.php:99
+#@ aiosc
+msgid "My Tickets URL"
+msgstr ""
+
+#: inc/vars.php:100
+#@ aiosc
+msgid "New Ticket URL"
+msgstr ""
+
+#: inc/vars.php:101
+#@ aiosc
+msgid "My Tickets URL - Front-End"
+msgstr ""
+
+#: inc/vars.php:102
+#@ aiosc
+msgid "New Ticket URL - Front-End"
+msgstr ""
+
+#: inc/vars.php:103
+#@ aiosc
+msgid "Date - Now"
+msgstr ""
+
+#: inc/vars.php:104
+#@ aiosc
+msgid "Date - Year"
+msgstr ""
+
+#: inc/vars.php:105
+#@ aiosc
+msgid "Date - Month"
+msgstr ""
+
+#: inc/vars.php:106
+#@ aiosc
+msgid "Time - Now"
+msgstr ""
+
+#: piper.php:83
+#@ aiosc
+msgid "Untitled"
+msgstr ""
+
+#: templates/admin/activation-warning.php:4
+#, php-format
+#@ aiosc
+msgid "<strong>AIO Support Center</strong> is not fully installed. Click <a href=\"%s\"><strong>here</strong></a> to finish installation & activation."
+msgstr ""
+
+#: templates/admin/install.php:7
+#@ aiosc
+msgid "Finalize Activation"
+msgstr ""
+
+#: templates/admin/install.php:11
+#@ aiosc
+msgid "Activator"
+msgstr ""
+
+#: templates/admin/install.php:23
+#@ aiosc
+msgid "Once activation starts, <strong>please don't refresh the page</strong> until it's completed. It shouldn't take long so please be patient."
+msgstr ""
+
+#: templates/admin/install.php:27
+#@ aiosc
+msgid "Press \"Run Activator\" to start activation progress."
+msgstr ""
+
+#: templates/admin/install.php:34
+#@ aiosc
+msgid "Run Activator"
+msgstr ""
+
+#: templates/admin/install.php:35
+#@ aiosc
+msgid "Pause"
+msgstr ""
+
+#: templates/admin/my-account/general.php:8
+#@ aiosc
+msgid "E-Mail Notifications"
+msgstr ""
+
+#: templates/admin/my-account/general.php:10
+#@ aiosc
+msgid "Would you like to receive notifications?"
+msgstr ""
+
+#: templates/admin/my-account/general.php:14
+#@ aiosc
+msgid "Send me notifications related to tickets assigned to me."
+msgstr ""
+
+#: templates/admin/my-account/general.php:18
+#@ aiosc
+msgid "Send me all notifications related to departments I am assigned to."
+msgstr ""
+
+#: templates/admin/my-account/general.php:22
+#@ aiosc
+msgid "Hide \"Create New\" page"
+msgstr ""
+
+#: templates/admin/my-account/general.php:24
+#@ aiosc
+msgid "Would you like to hide this page from main menu for your account?"
+msgstr ""
+
+#: templates/admin/my-account/general.php:28
+#@ aiosc
+msgid "Yes please, hide it."
+msgstr ""
+
+#: templates/admin/my-account/general.php:34
+#: templates/admin/preferences/cron/auto-close.php:166
+#: templates/admin/preferences/cron/general.php:37
+#: templates/admin/preferences/cron/reminder-queue.php:74
+#: templates/admin/preferences/email-piping.php:99
+#: templates/admin/preferences/email.php:98
+#: templates/admin/preferences/general.php:133
+#: templates/admin/preferences/pages/general.php:75
+#: templates/admin/preferences/tickets.php:77
+#: templates/admin/ticket/form.php:132
+#: templates/admin/ticket/single/popup/close-ticket.php:26
+#: templates/admin/tools/general.php:53
+#: templates/shortcodes/new-form/form.php:113
+#: templates/shortcodes/single/popup/close-ticket.php:26
+#@ aiosc
+msgid "Submit"
+msgstr ""
+
+#: templates/admin/my-account/general.php:35
+#: templates/admin/my-account/premade-responses-new.php:71
+#: templates/admin/preferences/cron/auto-close.php:167
+#: templates/admin/preferences/cron/general.php:38
+#: templates/admin/preferences/cron/reminder-queue.php:75
+#: templates/admin/preferences/departments-confirm.php:104
+#: templates/admin/preferences/departments-new.php:89
+#: templates/admin/preferences/email-piping.php:100
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:47
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:47
+#: templates/admin/preferences/email-templates/customer-closure.php:50
+#: templates/admin/preferences/email-templates/customer-creation.php:50
+#: templates/admin/preferences/email-templates/customer-reopen.php:50
+#: templates/admin/preferences/email-templates/customer-reply.php:50
+#: templates/admin/preferences/email-templates/staff-closure.php:50
+#: templates/admin/preferences/email-templates/staff-creation.php:50
+#: templates/admin/preferences/email-templates/staff-reopen.php:51
+#: templates/admin/preferences/email-templates/staff-reply.php:50
+#: templates/admin/preferences/email.php:99
+#: templates/admin/preferences/general.php:134
+#: templates/admin/preferences/pages/general.php:76
+#: templates/admin/preferences/priorities-confirm.php:103
+#: templates/admin/preferences/priorities-new.php:76
+#: templates/admin/preferences/tickets.php:78
+#: templates/admin/ticket/form.php:133
+#: templates/admin/ticket/list/table-confirm.php:155
+#: templates/admin/ticket/single/popup/close-ticket.php:27
+#: templates/admin/ticket/single/popup/reply-edit.php:26
+#: templates/admin/tools/general.php:54
+#: templates/shortcodes/single/popup/close-ticket.php:27
+#@ aiosc
+msgid "Discard"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:15
+#: templates/admin/my-account/premade-responses.php:9
+#: templates/admin/preferences/departments-confirm.php:12
+#: templates/admin/preferences/departments-new.php:15
+#: templates/admin/preferences/departments.php:9
+#: templates/admin/preferences/priorities-confirm.php:12
+#: templates/admin/preferences/priorities-new.php:15
+#: templates/admin/preferences/priorities.php:9
+#@ aiosc
+msgid "List"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:16
+#: templates/admin/my-account/premade-responses.php:10
+#: templates/admin/preferences/departments-confirm.php:13
+#: templates/admin/preferences/departments-new.php:16
+#: templates/admin/preferences/departments.php:10
+#: templates/admin/preferences/priorities-confirm.php:13
+#: templates/admin/preferences/priorities-new.php:16
+#: templates/admin/preferences/priorities.php:10
+#@ aiosc
+msgid "Add New"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:18
+#: templates/admin/preferences/departments-new.php:18
+#: templates/admin/preferences/priorities-new.php:18
+#, php-format
+#@ aiosc
+msgid "Editing &quot;%s&quot;"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:25
+#: templates/admin/preferences/departments-new.php:25
+#: templates/admin/preferences/priorities-new.php:25
+#@ aiosc
+msgid "Name"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:27
+#: templates/admin/preferences/departments-new.php:27
+#: templates/admin/preferences/priorities-new.php:27
+#@ aiosc
+msgid "Name must be unique."
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:36
+#@ aiosc
+msgid "The content of your pre-made response."
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:57
+#@ aiosc
+msgid "Shared?"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:59
+#@ aiosc
+msgid "Would you like others to see and use this response?"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:70
+#: templates/admin/preferences/departments-new.php:88
+#: templates/admin/preferences/priorities-new.php:75
+#@ aiosc
+msgid "Update"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses-new.php:70
+#: templates/admin/preferences/departments-new.php:88
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:46
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:46
+#: templates/admin/preferences/email-templates/customer-closure.php:49
+#: templates/admin/preferences/email-templates/customer-creation.php:49
+#: templates/admin/preferences/email-templates/customer-reopen.php:49
+#: templates/admin/preferences/email-templates/customer-reply.php:49
+#: templates/admin/preferences/email-templates/staff-closure.php:49
+#: templates/admin/preferences/email-templates/staff-creation.php:49
+#: templates/admin/preferences/email-templates/staff-reopen.php:50
+#: templates/admin/preferences/email-templates/staff-reply.php:49
+#: templates/admin/preferences/priorities-new.php:75
+#@ aiosc
+msgid "Save"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:15
+#: templates/admin/preferences/departments.php:15
+#: templates/admin/preferences/priorities.php:15
+#: templates/admin/ticket/list/page.php:201
+#@ aiosc
+msgid "Bulk Actions"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:16
+#@ aiosc
+msgid "Share"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:17
+#@ aiosc
+msgid "Make Private"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:18
+#: templates/admin/preferences/departments.php:18
+#: templates/admin/preferences/priorities.php:18
+#: templates/admin/ticket/list/table.php:245
+#@ aiosc
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:20
+#: templates/admin/preferences/departments.php:20
+#: templates/admin/preferences/priorities.php:20
+#: templates/admin/ticket/list/page.php:99
+#: templates/admin/ticket/list/page.php:205
+#@ aiosc
+msgid "Apply"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:27
+#: templates/admin/my-account/premade-responses.php:38
+#: templates/admin/preferences/departments.php:27
+#: templates/admin/preferences/departments.php:39
+#: templates/admin/preferences/priorities.php:27
+#: templates/admin/preferences/priorities.php:39
+#: templates/admin/ticket/list/table.php:37
+#: templates/admin/ticket/list/table.php:120
+#@ aiosc
+msgid "Select All"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:30
+#: templates/admin/my-account/premade-responses.php:41
+#: templates/admin/my-account.php:30
+#@ aiosc
+msgid "Pre-Made Responses"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:31
+#: templates/admin/my-account/premade-responses.php:42
+#@ aiosc
+msgid "Is Shared?"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:57
+#: templates/admin/preferences/departments.php:59
+#: templates/admin/preferences/priorities.php:63
+#: templates/admin/ticket/list/table.php:217
+#, php-format
+#@ aiosc
+msgid "Select %s"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:62
+#: templates/admin/my-account/premade-responses.php:67
+#: templates/admin/preferences/departments.php:64
+#: templates/admin/preferences/departments.php:69
+#: templates/admin/preferences/priorities.php:68
+#: templates/admin/preferences/priorities.php:73
+#: templates/admin/ticket/list/table.php:240
+#@ aiosc
+msgid "Edit"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:67
+#@ aiosc
+msgid "Edit this response"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:70
+#@ aiosc
+msgid "Delete permanently this response"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:70
+#: templates/admin/preferences/departments.php:72
+#: templates/admin/preferences/priorities.php:76
+#: templates/admin/ticket/list/page.php:203
+#@ aiosc
+msgid "Delete permanently"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:74
+#@ aiosc
+msgid "Shared"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:74
+#: templates/admin/ticket/list/page.php:135
+#: templates/admin/ticket/list/table-confirm.php:135
+#: templates/admin/ticket/single/page.php:165
+#: templates/shortcodes/list/page.php:44
+#: templates/shortcodes/single/sidebar.php:61
+#@ aiosc
+msgid "Private"
+msgstr ""
+
+#: templates/admin/my-account/premade-responses.php:81
+#@ aiosc
+msgid "No pre-made responses found."
+msgstr ""
+
+#: templates/admin/my-account.php:26
+#@ aiosc
+msgid "Edit your AIOSC account."
+msgstr ""
+
+#: templates/admin/my-account.php:29
+#: templates/admin/preferences/cron/auto-close.php:10
+#: templates/admin/preferences/cron/general.php:7
+#: templates/admin/preferences/cron/reminder-queue.php:10
+#: templates/admin/preferences.php:28
+#@ aiosc
+msgid "General"
+msgstr ""
+
+#: templates/admin/my-account.php:40
+#: templates/admin/preferences.php:46
+#: templates/admin/ticket/list/page.php:194
+#: templates/admin/tools.php:18
+#: templates/shortcodes/list/page.php:110
+#@ aiosc
+msgid "Loading Screen..."
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:5
+#@ aiosc
+msgid "List of Add-Ons available for purchase:"
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:15
+#@ aiosc
+msgid "Already installed"
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:18
+#@ aiosc
+msgid "In order to use this Add-On, you must update your AIO Support Center first."
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:18
+#@ aiosc
+msgid "AIO Support Center update required"
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:21
+#, php-format
+#@ aiosc
+msgid "Version %s"
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:23
+#, php-format
+#@ aiosc
+msgid "AIO Support Center %s"
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:30
+#@ aiosc
+msgid "More Info"
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:33
+#, php-format
+#@ aiosc
+msgid "Purchase now for $%s"
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:34
+#@ aiosc
+msgid "Download for free"
+msgstr ""
+
+#: templates/admin/preferences/addons/list.php:42
+#@ aiosc
+msgid "There are no available add-ons at the moment or server may be down. Please return back later."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:11
+#: templates/admin/preferences/cron/general.php:8
+#: templates/admin/preferences/cron/reminder-queue.php:11
+#@ aiosc
+msgid "Auto-Closing"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:12
+#: templates/admin/preferences/cron/general.php:9
+#: templates/admin/preferences/cron/reminder-queue.php:12
+#@ aiosc
+msgid "Queue Reminder"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:21
+#@ aiosc
+msgid "This task will automatically close inactive tickets. It can also send notifications to customers before closure to inform them their tickets will be closed if they don't respond in timely manner.<br />You can find more details in the <strong>documentation</strong>."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:27
+#@ aiosc
+msgid "Enable Auto-Closing"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:29
+#@ aiosc
+msgid "Automatically close inactive tickets?"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:33
+#@ aiosc
+msgid "Yes, enable Auto-Closing."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:37
+#@ aiosc
+msgid "Notifications"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:39
+#@ aiosc
+msgid "Notify Customer"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:41
+#@ aiosc
+msgid "Send notification to customer when ticket is closed?"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:45
+#@ aiosc
+msgid "Yes, send e-mail notification to customer."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:51
+#@ aiosc
+msgid "Inactivity Closure Note"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:53
+#@ aiosc
+msgid "Default closure note for tickets closed by cron because of inactivity."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:77
+#@ aiosc
+msgid "Requested Closure Note"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:79
+#@ aiosc
+msgid "Default closure note for tickets closed by cron because closure was requested by customer."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:101
+#@ aiosc
+msgid "Rules"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:103
+#: templates/admin/preferences/cron/auto-close.php:160
+#@ aiosc
+msgid "Inactivity Interval"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:105
+#@ aiosc
+msgid "What is considered as inactive ticket?"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:107
+#@ aiosc
+msgid "Ticket must be older than:"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:113
+#@ aiosc
+msgid "day(s) &nbsp; &nbsp; <strong>OR</strong> "
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:115
+#@ aiosc
+msgid "If this option is checked, tickets with Closure Request will be closed regardless of their age."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:117
+#@ aiosc
+msgid "it has pending closure request."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:122
+#: templates/admin/preferences/cron/reminder-queue.php:57
+#@ aiosc
+msgid "Ignore Departments"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:124
+#: templates/admin/preferences/cron/reminder-queue.php:59
+#@ aiosc
+msgid "Ignore tickets from selected departments. <br /> <br />Hold CTRL to select multiple departments."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:137
+#@ aiosc
+msgid "Reminder"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:139
+#@ aiosc
+msgid "Enable Inactivity Reminder"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:141
+#@ aiosc
+msgid "Notify customers when their ticket is considered inactive?"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:145
+#@ aiosc
+msgid "Yes, enable Inactivity Reminder."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:150
+#@ aiosc
+msgid "Reminder Interval"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:152
+#@ aiosc
+msgid "When to send reminder?"
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:159
+#, php-format
+#@ aiosc
+msgid "day(s) <a href=\"%s\" title=\"%s\">before closure</a>."
+msgstr ""
+
+#: templates/admin/preferences/cron/auto-close.php:160
+#, php-format
+#@ aiosc
+msgid "day(s) before (%s) field"
+msgstr ""
+
+#: templates/admin/preferences/cron/general.php:18
+#@ aiosc
+msgid "Before enabling CRON, you should read detailed guide on how to setup AIOSC CRON in the documentation."
+msgstr ""
+
+#: templates/admin/preferences/cron/general.php:24
+#@ aiosc
+msgid "Enable Cron"
+msgstr ""
+
+#: templates/admin/preferences/cron/general.php:26
+#@ aiosc
+msgid "Would you like to run scheduled AIOSC tasks?"
+msgstr ""
+
+#: templates/admin/preferences/cron/general.php:30
+#@ aiosc
+msgid "Yes, enable AIOSC Cron."
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:21
+#@ aiosc
+msgid "This task will send e-mail notifications to all customers whose tickets are in queue longer than expected.<br />You can find more details in the <strong>documentation</strong>."
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:27
+#@ aiosc
+msgid "Enable Queue Reminder"
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:29
+#@ aiosc
+msgid "Notify customers when their ticket is in queue longer than expected?"
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:33
+#@ aiosc
+msgid "Yes, enable Queue Reminder."
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:38
+#@ aiosc
+msgid "Delay Interval"
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:40
+#@ aiosc
+msgid "What is considered as delayed ticket?"
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:42
+#@ aiosc
+msgid "Ticket is in <strong>queue</strong> for at least:"
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:48
+#@ aiosc
+msgid "day(s)"
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:50
+#@ aiosc
+msgid "If this option is checked, all tickets awaiting staff reply will be included, both OPEN and IN QUEUE."
+msgstr ""
+
+#: templates/admin/preferences/cron/reminder-queue.php:52
+#@ aiosc
+msgid "Include <strong>open</strong> tickets awaiting staff reply as well."
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:18
+#, php-format
+#@ aiosc
+msgid "Confirm deletion of %d department"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:20
+#, php-format
+#@ aiosc
+msgid "Confirm deletion of %d departments"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:24
+#, php-format
+#@ aiosc
+msgid "Confirm activation of %d department"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:26
+#, php-format
+#@ aiosc
+msgid "Confirm activation of %d departments"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:30
+#, php-format
+#@ aiosc
+msgid "Confirm deactivation of %d department"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:32
+#, php-format
+#@ aiosc
+msgid "Confirm deactivation of %d departments"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:43
+#@ aiosc
+msgid "Departments to be deleted:"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:45
+#@ aiosc
+msgid "Departments to be activated:"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:47
+#@ aiosc
+msgid "Departments to be deactivated:"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:62
+#: templates/admin/preferences/priorities-confirm.php:62
+#, php-format
+#@ aiosc
+msgid "Tickets: %d"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:63
+#, php-format
+#@ aiosc
+msgid "Operators: %d"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:79
+#@ aiosc
+msgid "What would you like to do with tickets assigned to this department:"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:89
+#: templates/admin/preferences/priorities-confirm.php:88
+#@ aiosc
+msgid "- Delete all tickets -"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:92
+#: templates/admin/preferences/priorities-confirm.php:91
+#, php-format
+#@ aiosc
+msgid "Move to: %s"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:103
+#: templates/admin/preferences/priorities-confirm.php:102
+#: templates/admin/ticket/list/table-confirm.php:154
+#@ aiosc
+msgid "Confirm Deletion"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:103
+#: templates/admin/preferences/priorities-confirm.php:102
+#@ aiosc
+msgid "Confirm Deactivation"
+msgstr ""
+
+#: templates/admin/preferences/departments-confirm.php:103
+#: templates/admin/preferences/priorities-confirm.php:102
+#@ aiosc
+msgid "Confirm Activation"
+msgstr ""
+
+#: templates/admin/preferences/departments-new.php:34
+#: templates/admin/preferences/priorities-new.php:34
+#: templates/admin/ticket/form.php:23
+#: templates/shortcodes/new-form/form.php:23
+#@ aiosc
+msgid "Description"
+msgstr ""
+
+#: templates/admin/preferences/departments-new.php:36
+#: templates/admin/preferences/priorities-new.php:36
+#@ aiosc
+msgid "Not required but can help in management."
+msgstr ""
+
+#: templates/admin/preferences/departments-new.php:44
+#@ aiosc
+msgid "Assign Operators"
+msgstr ""
+
+#: templates/admin/preferences/departments-new.php:46
+#@ aiosc
+msgid "You can assign more than one operator."
+msgstr ""
+
+#: templates/admin/preferences/departments-new.php:75
+#: templates/admin/preferences/priorities-new.php:62
+#@ aiosc
+msgid "Active?"
+msgstr ""
+
+#: templates/admin/preferences/departments-new.php:77
+#@ aiosc
+msgid "Is this department available for use?"
+msgstr ""
+
+#: templates/admin/preferences/departments.php:16
+#: templates/admin/preferences/priorities.php:16
+#@ aiosc
+msgid "Activate"
+msgstr ""
+
+#: templates/admin/preferences/departments.php:17
+#: templates/admin/preferences/priorities.php:17
+#@ aiosc
+msgid "Deactivate"
+msgstr ""
+
+#: templates/admin/preferences/departments.php:30
+#: templates/admin/preferences/departments.php:42
+#: templates/admin/preferences.php:30
+#@ aiosc
+msgid "Departments"
+msgstr ""
+
+#: templates/admin/preferences/departments.php:31
+#: templates/admin/preferences/departments.php:43
+#@ aiosc
+msgid "Operators"
+msgstr ""
+
+#: templates/admin/preferences/departments.php:69
+#@ aiosc
+msgid "Edit this department"
+msgstr ""
+
+#: templates/admin/preferences/departments.php:72
+#@ aiosc
+msgid "Delete permanently this department"
+msgstr ""
+
+#: templates/admin/preferences/departments.php:77
+#, php-format
+#@ aiosc
+msgid "View all tickets from &quot;%s&quot; department."
+msgstr ""
+
+#: templates/admin/preferences/departments.php:82
+#@ aiosc
+msgid "No departments found."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:11
+#: templates/admin/preferences/email.php:6
+#@ aiosc
+msgid "Auto Responders"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:12
+#: templates/admin/preferences/email.php:7
+#@ aiosc
+msgid "E-Mail Piping"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:19
+#@ aiosc
+msgid "Enable E-Mail Piping"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:21
+#@ aiosc
+msgid "Allow users to create / reply to tickets via e-mail."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:25
+#@ aiosc
+msgid "Yes, enable e-mail piping."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:29
+#@ aiosc
+msgid "Enable HTML Content-Type"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:31
+#@ aiosc
+msgid "Allow HTML content in email or only plain text."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:35
+#@ aiosc
+msgid "Yes, allow user to send HTML e-mails."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:38
+#@ aiosc
+msgid "Ticket Creation"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:40
+#@ aiosc
+msgid "Forwarded E-Mail Address"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:42
+#@ aiosc
+msgid "Users will be sending their tickets to this e-mail address."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:49
+#@ aiosc
+msgid "Default Department"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:51
+#@ aiosc
+msgid "Active Department used for storing tickets created via e-mail."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:57
+#: templates/admin/preferences/email-piping.php:76
+#: templates/admin/ticket/form.php:46
+#: templates/admin/ticket/form.php:65
+#: templates/shortcodes/new-form/form.php:44
+#: templates/shortcodes/new-form/form.php:64
+#@ aiosc
+msgid "Please select..."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:63
+#@ aiosc
+msgid "You must have at least one <strong>active</strong> department for this feature to work."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:68
+#@ aiosc
+msgid "Default Priority"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:70
+#@ aiosc
+msgid "Active Priority used for tickets created via e-mail."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:82
+#@ aiosc
+msgid "You must have at least one <strong>active</strong> priority for this feature to work."
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:86
+#@ aiosc
+msgid "Ticket Replies"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:88
+#@ aiosc
+msgid "E-mail Sub-Domain"
+msgstr ""
+
+#: templates/admin/preferences/email-piping.php:90
+#@ aiosc
+msgid "Where to receive replies from users?"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:7
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:7
+#: templates/admin/preferences/email-templates/customer-closure.php:7
+#: templates/admin/preferences/email-templates/customer-creation.php:7
+#: templates/admin/preferences/email-templates/customer-reopen.php:7
+#: templates/admin/preferences/email-templates/customer-reply.php:7
+#: templates/admin/preferences/email-templates/staff-closure.php:7
+#: templates/admin/preferences/email-templates/staff-creation.php:7
+#: templates/admin/preferences/email-templates/staff-reopen.php:7
+#: templates/admin/preferences/email-templates/staff-reply.php:7
+#: templates/admin/preferences/email.php:13
+#@ aiosc
+msgid "Customers"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:8
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:8
+#: templates/admin/preferences/email-templates/customer-closure.php:8
+#: templates/admin/preferences/email-templates/customer-creation.php:8
+#: templates/admin/preferences/email-templates/customer-reopen.php:8
+#: templates/admin/preferences/email-templates/customer-reply.php:8
+#: templates/admin/preferences/email-templates/staff-closure.php:8
+#: templates/admin/preferences/email-templates/staff-creation.php:8
+#: templates/admin/preferences/email-templates/staff-reopen.php:8
+#: templates/admin/preferences/email-templates/staff-reply.php:8
+#@ aiosc
+msgid "Staff"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:9
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:9
+#: templates/admin/preferences/email-templates/customer-closure.php:9
+#: templates/admin/preferences/email-templates/customer-creation.php:9
+#: templates/admin/preferences/email-templates/customer-reopen.php:9
+#: templates/admin/preferences/email-templates/customer-reply.php:9
+#: templates/admin/preferences/email-templates/staff-closure.php:9
+#: templates/admin/preferences/email-templates/staff-creation.php:9
+#: templates/admin/preferences/email-templates/staff-reopen.php:9
+#: templates/admin/preferences/email-templates/staff-reply.php:9
+#@ aiosc
+msgid "Cron Reminders"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:14
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:14
+#@ aiosc
+msgid "Queue"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:15
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:15
+#@ aiosc
+msgid "Inactivity"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:24
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:24
+#: templates/admin/preferences/email-templates/customer-closure.php:27
+#: templates/admin/preferences/email-templates/customer-creation.php:27
+#: templates/admin/preferences/email-templates/customer-reopen.php:27
+#: templates/admin/preferences/email-templates/customer-reply.php:27
+#: templates/admin/preferences/email-templates/staff-closure.php:27
+#: templates/admin/preferences/email-templates/staff-creation.php:27
+#: templates/admin/preferences/email-templates/staff-reopen.php:28
+#: templates/admin/preferences/email-templates/staff-reply.php:27
+#@ aiosc
+msgid "You may use content tags here too."
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:31
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:31
+#: templates/admin/preferences/email-templates/customer-closure.php:34
+#: templates/admin/preferences/email-templates/customer-creation.php:34
+#: templates/admin/preferences/email-templates/customer-reopen.php:34
+#: templates/admin/preferences/email-templates/customer-reply.php:34
+#: templates/admin/preferences/email-templates/staff-closure.php:34
+#: templates/admin/preferences/email-templates/staff-creation.php:34
+#: templates/admin/preferences/email-templates/staff-reopen.php:35
+#: templates/admin/preferences/email-templates/staff-reply.php:34
+#@ aiosc
+msgid "E-Mail Content"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:54
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:54
+#: templates/admin/preferences/email-templates/customer-closure.php:57
+#: templates/admin/preferences/email-templates/customer-creation.php:57
+#: templates/admin/preferences/email-templates/customer-reopen.php:57
+#: templates/admin/preferences/email-templates/customer-reply.php:57
+#: templates/admin/preferences/email-templates/staff-closure.php:57
+#: templates/admin/preferences/email-templates/staff-creation.php:57
+#: templates/admin/preferences/email-templates/staff-reopen.php:58
+#: templates/admin/preferences/email-templates/staff-reply.php:57
+#@ aiosc
+msgid "- Browse Tags -"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/cron-reminder-inactivity.php:63
+#: templates/admin/preferences/email-templates/cron-reminder-queue.php:63
+#: templates/admin/preferences/email-templates/customer-closure.php:66
+#: templates/admin/preferences/email-templates/customer-creation.php:66
+#: templates/admin/preferences/email-templates/customer-reopen.php:66
+#: templates/admin/preferences/email-templates/customer-reply.php:66
+#: templates/admin/preferences/email-templates/staff-closure.php:66
+#: templates/admin/preferences/email-templates/staff-creation.php:66
+#: templates/admin/preferences/email-templates/staff-reopen.php:67
+#: templates/admin/preferences/email-templates/staff-reply.php:66
+#: templates/admin/ticket/single/reply/form.php:46
+#: templates/shortcodes/single/reply/form.php:44
+#@ aiosc
+msgid "Insert"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/customer-closure.php:14
+#: templates/admin/preferences/email-templates/customer-creation.php:14
+#: templates/admin/preferences/email-templates/customer-reopen.php:14
+#: templates/admin/preferences/email-templates/customer-reply.php:14
+#: templates/admin/preferences/email-templates/staff-closure.php:14
+#: templates/admin/preferences/email-templates/staff-creation.php:14
+#: templates/admin/preferences/email-templates/staff-reopen.php:15
+#: templates/admin/preferences/email-templates/staff-reply.php:14
+#@ aiosc
+msgid "On Ticket:"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/customer-closure.php:15
+#: templates/admin/preferences/email-templates/customer-creation.php:15
+#: templates/admin/preferences/email-templates/customer-reopen.php:15
+#: templates/admin/preferences/email-templates/customer-reply.php:15
+#@ aiosc
+msgid "Creation"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/customer-closure.php:16
+#: templates/admin/preferences/email-templates/customer-creation.php:16
+#: templates/admin/preferences/email-templates/customer-reopen.php:16
+#: templates/admin/preferences/email-templates/customer-reply.php:16
+#: templates/admin/preferences/email-templates/staff-closure.php:16
+#: templates/admin/preferences/email-templates/staff-creation.php:16
+#: templates/admin/preferences/email-templates/staff-reopen.php:17
+#: templates/admin/preferences/email-templates/staff-reply.php:16
+#@ aiosc
+msgid "New Reply"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/customer-closure.php:17
+#: templates/admin/preferences/email-templates/customer-creation.php:17
+#: templates/admin/preferences/email-templates/customer-reopen.php:17
+#: templates/admin/preferences/email-templates/customer-reply.php:17
+#@ aiosc
+msgid "Closure"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/customer-closure.php:18
+#: templates/admin/preferences/email-templates/customer-creation.php:18
+#: templates/admin/preferences/email-templates/customer-reopen.php:18
+#: templates/admin/preferences/email-templates/customer-reply.php:18
+#: templates/admin/preferences/email-templates/staff-closure.php:18
+#: templates/admin/preferences/email-templates/staff-creation.php:18
+#: templates/admin/preferences/email-templates/staff-reopen.php:19
+#: templates/admin/preferences/email-templates/staff-reply.php:18
+#@ aiosc
+msgid "Re-Opening"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/staff-closure.php:15
+#: templates/admin/preferences/email-templates/staff-creation.php:15
+#: templates/admin/preferences/email-templates/staff-reopen.php:16
+#: templates/admin/preferences/email-templates/staff-reply.php:15
+#@ aiosc
+msgid "Assignment"
+msgstr ""
+
+#: templates/admin/preferences/email-templates/staff-closure.php:17
+#: templates/admin/preferences/email-templates/staff-creation.php:17
+#: templates/admin/preferences/email-templates/staff-reopen.php:18
+#: templates/admin/preferences/email-templates/staff-reply.php:17
+#@ aiosc
+msgid "Closure Request"
+msgstr ""
+
+#: templates/admin/preferences/email.php:15
+#@ aiosc
+msgid "On Ticket Creation"
+msgstr ""
+
+#: templates/admin/preferences/email.php:17
+#@ aiosc
+msgid "Send confirmational email to user when his ticket is successfully created."
+msgstr ""
+
+#: templates/admin/preferences/email.php:21
+#@ aiosc
+msgid "Yes, send confirmation to user."
+msgstr ""
+
+#: templates/admin/preferences/email.php:25
+#: templates/admin/preferences/email.php:66
+#@ aiosc
+msgid "On New Reply"
+msgstr ""
+
+#: templates/admin/preferences/email.php:27
+#@ aiosc
+msgid "Send notification email to user when Operator posts new reply on his ticket."
+msgstr ""
+
+#: templates/admin/preferences/email.php:31
+#: templates/admin/preferences/email.php:41
+#: templates/admin/preferences/email.php:51
+#@ aiosc
+msgid "Yes, send notification to user."
+msgstr ""
+
+#: templates/admin/preferences/email.php:35
+#@ aiosc
+msgid "On Ticket Closure"
+msgstr ""
+
+#: templates/admin/preferences/email.php:37
+#@ aiosc
+msgid "Send notification email to user when Operator closes his ticket."
+msgstr ""
+
+#: templates/admin/preferences/email.php:45
+#: templates/admin/preferences/email.php:86
+#@ aiosc
+msgid "On Re-Opening"
+msgstr ""
+
+#: templates/admin/preferences/email.php:47
+#@ aiosc
+msgid "Send notification email to user when his ticket is re-opened."
+msgstr ""
+
+#: templates/admin/preferences/email.php:54
+#@ aiosc
+msgid "Staff Members"
+msgstr ""
+
+#: templates/admin/preferences/email.php:56
+#@ aiosc
+msgid "On Ticket Assignment"
+msgstr ""
+
+#: templates/admin/preferences/email.php:58
+#@ aiosc
+msgid "Send notification email to Operator when new ticket is assigned to him."
+msgstr ""
+
+#: templates/admin/preferences/email.php:62
+#: templates/admin/preferences/email.php:72
+#: templates/admin/preferences/email.php:82
+#: templates/admin/preferences/email.php:92
+#@ aiosc
+msgid "Yes, send notification to staff member."
+msgstr ""
+
+#: templates/admin/preferences/email.php:68
+#@ aiosc
+msgid "Send notification email to Operator when customer posts a new reply on ticket."
+msgstr ""
+
+#: templates/admin/preferences/email.php:76
+#@ aiosc
+msgid "On Ticket Closure Request"
+msgstr ""
+
+#: templates/admin/preferences/email.php:78
+#@ aiosc
+msgid "Send notification email to Operator when customer request closure of his ticket."
+msgstr ""
+
+#: templates/admin/preferences/email.php:88
+#@ aiosc
+msgid "Send notification email to Operator when customer re-opens his ticket."
+msgstr ""
+
+#: templates/admin/preferences/general.php:21
+#@ aiosc
+msgid "Enable STAFF Ribbon"
+msgstr ""
+
+#: templates/admin/preferences/general.php:23
+#@ aiosc
+msgid "Would you like to have ribbon over your avatar?"
+msgstr ""
+
+#: templates/admin/preferences/general.php:27
+#@ aiosc
+msgid "Yes, show staff ribbon over avatars of staff members."
+msgstr ""
+
+#: templates/admin/preferences/general.php:31
+#@ aiosc
+msgid "Enable Public Tickets"
+msgstr ""
+
+#: templates/admin/preferences/general.php:33
+#@ aiosc
+msgid "Customers can create public tickets?"
+msgstr ""
+
+#: templates/admin/preferences/general.php:37
+#@ aiosc
+msgid "Yes, allow users to make their tickets publicly visible."
+msgstr ""
+
+#: templates/admin/preferences/general.php:40
+#: templates/admin/tools.php:8
+#@ aiosc
+msgid "User Roles"
+msgstr ""
+
+#: templates/admin/preferences/general.php:42
+#@ aiosc
+msgid "Default Role"
+msgstr ""
+
+#: templates/admin/preferences/general.php:44
+#@ aiosc
+msgid "Upon registration, users will be granted with this role."
+msgstr ""
+
+#: templates/admin/preferences/general.php:47
+#@ aiosc
+msgid "- No default role -"
+msgstr ""
+
+#: templates/admin/preferences/general.php:57
+#: templates/admin/ticket/list/page.php:55
+#: templates/admin/ticket/single/page.php:194
+#: templates/admin/ticket/single/reply/single.php:35
+#: templates/shortcodes/single/reply/single.php:32
+#: templates/shortcodes/single/sidebar.php:91
+#@ aiosc
+msgid "Attachments"
+msgstr ""
+
+#: templates/admin/preferences/general.php:59
+#@ aiosc
+msgid "Allow upload"
+msgstr ""
+
+#: templates/admin/preferences/general.php:61
+#@ aiosc
+msgid "Allow customers to upload files along with tickets & replies."
+msgstr ""
+
+#: templates/admin/preferences/general.php:65
+#@ aiosc
+msgid "Yes, allow users to upload attachments with tickets and replies."
+msgstr ""
+
+#: templates/admin/preferences/general.php:69
+#@ aiosc
+msgid "Allow download"
+msgstr ""
+
+#: templates/admin/preferences/general.php:71
+#@ aiosc
+msgid "Allow customers to download their files anytime."
+msgstr ""
+
+#: templates/admin/preferences/general.php:75
+#@ aiosc
+msgid "Yes, allow users to download attachments from tickets and replies."
+msgstr ""
+
+#: templates/admin/preferences/general.php:79
+#@ aiosc
+msgid "Maximum file size (Kb)"
+msgstr ""
+
+#: templates/admin/preferences/general.php:81
+#@ aiosc
+msgid "Maximum size of single file, not the size of whole upload."
+msgstr ""
+
+#: templates/admin/preferences/general.php:85
+#@ aiosc
+msgid "Kb"
+msgstr ""
+
+#: templates/admin/preferences/general.php:86
+#, php-format
+#@ aiosc
+msgid "Max. possible value is <code>%sb</code>, according to <code>%s</code>."
+msgstr ""
+
+#: templates/admin/preferences/general.php:90
+#@ aiosc
+msgid "Max. files per ticket"
+msgstr ""
+
+#: templates/admin/preferences/general.php:92
+#@ aiosc
+msgid "How many files can user attach to single ticket?"
+msgstr ""
+
+#: templates/admin/preferences/general.php:96
+#: templates/admin/preferences/general.php:106
+#, php-format
+#@ aiosc
+msgid "Max. possible value is <code>%s</code>, according to <code>%s</code>."
+msgstr ""
+
+#: templates/admin/preferences/general.php:100
+#@ aiosc
+msgid "Max. files per reply"
+msgstr ""
+
+#: templates/admin/preferences/general.php:102
+#@ aiosc
+msgid "How many files can user attach to single ticket reply?"
+msgstr ""
+
+#: templates/admin/preferences/general.php:110
+#@ aiosc
+msgid "Attachment Mime-types"
+msgstr ""
+
+#: templates/admin/preferences/general.php:112
+#@ aiosc
+msgid "Allowed Mime-types"
+msgstr ""
+
+#: templates/admin/preferences/general.php:114
+#@ aiosc
+msgid "File extensions (comma separated) that are allowed for upload."
+msgstr ""
+
+#: templates/admin/preferences/general.php:121
+#@ aiosc
+msgid "Forbid Mime-types"
+msgstr ""
+
+#: templates/admin/preferences/general.php:123
+#@ aiosc
+msgid "Instead of allowing above mime-types, you can forbid them."
+msgstr ""
+
+#: templates/admin/preferences/general.php:127
+#@ aiosc
+msgid "Forbid above extensions and allow all others."
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:10
+#@ aiosc
+msgid "Use Front-End Pages"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:12
+#@ aiosc
+msgid "Are you going to use AIOSC in front-end?"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:16
+#@ aiosc
+msgid "Yes, enable front-end pages."
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:22
+#@ aiosc
+msgid "New Ticket Form"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:24
+#@ aiosc
+msgid "Which page will display this form?"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:27
+#: templates/admin/preferences/pages/general.php:44
+#: templates/admin/preferences/pages/general.php:61
+#@ aiosc
+msgid "- None -"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:35
+#, php-format
+#@ aiosc
+msgid "Use <code>%s</code> shortcode on this page to display form."
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:39
+#@ aiosc
+msgid "Ticket Preview (Single)"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:41
+#@ aiosc
+msgid "Which page will display single ticket preview?"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:52
+#, php-format
+#@ aiosc
+msgid "Use <code>%s</code> shortcode on this page to ticket preview."
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:56
+#@ aiosc
+msgid "Ticket List (My Tickets)"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:58
+#@ aiosc
+msgid "Which page will display list of all user's tickets?"
+msgstr ""
+
+#: templates/admin/preferences/pages/general.php:69
+#, php-format
+#@ aiosc
+msgid "Use <code>%s</code> shortcode on this page to display ticket list."
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:18
+#, php-format
+#@ aiosc
+msgid "Confirm deletion of %d priority"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:20
+#, php-format
+#@ aiosc
+msgid "Confirm deletion of %d priorities"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:24
+#, php-format
+#@ aiosc
+msgid "Confirm activation of %d priority"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:26
+#, php-format
+#@ aiosc
+msgid "Confirm activation of %d priorities"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:30
+#, php-format
+#@ aiosc
+msgid "Confirm deactivation of %d priority"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:32
+#, php-format
+#@ aiosc
+msgid "Confirm deactivation of %d priorities"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:43
+#@ aiosc
+msgid "Priorities to be deleted:"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:45
+#@ aiosc
+msgid "Priorities to be activated:"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:47
+#@ aiosc
+msgid "Priorities to be deactivated:"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:63
+#, php-format
+#@ aiosc
+msgid "Level: %d"
+msgstr ""
+
+#: templates/admin/preferences/priorities-confirm.php:78
+#@ aiosc
+msgid "What would you like to do with tickets that use this priority:"
+msgstr ""
+
+#: templates/admin/preferences/priorities-new.php:43
+#: templates/admin/preferences/priorities.php:31
+#: templates/admin/preferences/priorities.php:43
+#@ aiosc
+msgid "Level"
+msgstr ""
+
+#: templates/admin/preferences/priorities-new.php:45
+#@ aiosc
+msgid "Higher level = higher importance."
+msgstr ""
+
+#: templates/admin/preferences/priorities-new.php:52
+#@ aiosc
+msgid "Color"
+msgstr ""
+
+#: templates/admin/preferences/priorities-new.php:54
+#@ aiosc
+msgid "Use colors for easier managing."
+msgstr ""
+
+#: templates/admin/preferences/priorities-new.php:64
+#@ aiosc
+msgid "Is this priority available for use?"
+msgstr ""
+
+#: templates/admin/preferences/priorities.php:30
+#: templates/admin/preferences/priorities.php:42
+#: templates/admin/preferences.php:31
+#@ aiosc
+msgid "Priorities"
+msgstr ""
+
+#: templates/admin/preferences/priorities.php:73
+#@ aiosc
+msgid "Edit this priority"
+msgstr ""
+
+#: templates/admin/preferences/priorities.php:76
+#@ aiosc
+msgid "Delete permanently this priority"
+msgstr ""
+
+#: templates/admin/preferences/priorities.php:81
+#, php-format
+#@ aiosc
+msgid "View all tickets with &quot;%s&quot; priority."
+msgstr ""
+
+#: templates/admin/preferences/priorities.php:86
+#@ aiosc
+msgid "No priorities found."
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:5
+#@ aiosc
+msgid "Top - Left"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:6
+#@ aiosc
+msgid "Top - Right"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:7
+#@ aiosc
+msgid "Bottom - Left"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:8
+#@ aiosc
+msgid "Bottom - Right"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:17
+#@ aiosc
+msgid "Min. Subject Length"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:19
+#@ aiosc
+msgid "At least, how many characters subject must contain?"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:22
+#: templates/admin/preferences/tickets.php:31
+#: templates/admin/preferences/tickets.php:61
+#@ aiosc
+msgid "characters"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:26
+#@ aiosc
+msgid "Min. Content Length"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:28
+#@ aiosc
+msgid "At least, how many characters content must contain?"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:35
+#@ aiosc
+msgid "Creation Delay"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:37
+#@ aiosc
+msgid "How much time must pass before customer can create another ticket?"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:40
+#: templates/admin/preferences/tickets.php:70
+#@ aiosc
+msgid "seconds"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:44
+#@ aiosc
+msgid "Allow Re-Opening"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:46
+#@ aiosc
+msgid "Would you like to let your customers re-open closed tickets?"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:50
+#@ aiosc
+msgid "Yes, let customers re-open closed tickets."
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:54
+#: templates/admin/ticket/list/page.php:67
+#: templates/admin/ticket/list/table.php:64
+#: templates/admin/ticket/list/table.php:147
+#: templates/admin/ticket/single/reply/list.php:17
+#: templates/shortcodes/list/table.php:43
+#: templates/shortcodes/list/table.php:93
+#: templates/shortcodes/single/reply/list.php:14
+#@ aiosc
+msgid "Replies"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:56
+#@ aiosc
+msgid "Min. Reply Length"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:58
+#@ aiosc
+msgid "At least, how many characters reply content must contain?"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:65
+#@ aiosc
+msgid "Reply Delay"
+msgstr ""
+
+#: templates/admin/preferences/tickets.php:67
+#@ aiosc
+msgid "How much time must pass before customer can post another reply on the same ticket?"
+msgstr ""
+
+#: templates/admin/preferences.php:25
+#@ aiosc
+msgid "Setup AIO Support Center to suit your needs, but make sure you read documentation carefully so you know what you are doing."
+msgstr ""
+
+#: templates/admin/preferences.php:32
+#@ aiosc
+msgid "E-Mail"
+msgstr ""
+
+#: templates/admin/preferences.php:33
+#@ aiosc
+msgid "E-Mail Templates"
+msgstr ""
+
+#: templates/admin/preferences.php:34
+#@ aiosc
+msgid "Pages"
+msgstr ""
+
+#: templates/admin/preferences.php:35
+#@ aiosc
+msgid "Cron"
+msgstr ""
+
+#: templates/admin/preferences.php:36
+#@ aiosc
+msgid "Add-Ons"
+msgstr ""
+
+#: templates/admin/ticket/form.php:9
+#@ aiosc
+msgid "Create New Ticket"
+msgstr ""
+
+#: templates/admin/ticket/form.php:10
+#@ aiosc
+msgid "Submit a new ticket to queue."
+msgstr ""
+
+#: templates/admin/ticket/form.php:43
+#: templates/admin/ticket/list/page.php:73
+#: templates/admin/ticket/list/table.php:78
+#: templates/admin/ticket/list/table.php:161
+#: templates/admin/ticket/single/page.php:126
+#: templates/shortcodes/list/table.php:54
+#: templates/shortcodes/list/table.php:104
+#: templates/shortcodes/new-form/form.php:42
+#: templates/shortcodes/single/sidebar.php:33
+#@ aiosc
+msgid "Department"
+msgstr ""
+
+#: templates/admin/ticket/form.php:44
+#@ aiosc
+msgid "Which department your ticket belongs to?"
+msgstr ""
+
+#: templates/admin/ticket/form.php:62
+#: templates/admin/ticket/list/page.php:70
+#: templates/admin/ticket/list/table.php:70
+#: templates/admin/ticket/list/table.php:153
+#: templates/admin/ticket/single/page.php:116
+#: templates/shortcodes/list/table.php:48
+#: templates/shortcodes/list/table.php:98
+#: templates/shortcodes/new-form/form.php:62
+#: templates/shortcodes/single/sidebar.php:25
+#@ aiosc
+msgid "Priority"
+msgstr ""
+
+#: templates/admin/ticket/form.php:63
+#@ aiosc
+msgid "How urgent is your request?"
+msgstr ""
+
+#: templates/admin/ticket/form.php:81
+#@ aiosc
+msgid "Set Author"
+msgstr ""
+
+#: templates/admin/ticket/form.php:82
+#@ aiosc
+msgid "Do you want to create this ticket for specific user?"
+msgstr ""
+
+#: templates/admin/ticket/form.php:85
+#: templates/admin/ticket/form.php:86
+#@ aiosc
+msgid "- Choose Author -"
+msgstr ""
+
+#: templates/admin/ticket/form.php:97
+#: templates/shortcodes/new-form/form.php:83
+#@ aiosc
+msgid "Public ticket?"
+msgstr ""
+
+#: templates/admin/ticket/form.php:98
+#@ aiosc
+msgid "Would you like your ticket to be publicly visible?"
+msgstr ""
+
+#: templates/admin/ticket/form.php:100
+#: templates/shortcodes/new-form/form.php:84
+#@ aiosc
+msgid "Yes, allow others to see this ticket."
+msgstr ""
+
+#: templates/admin/ticket/form.php:106
+#: templates/shortcodes/new-form/form.php:91
+#@ aiosc
+msgid "Attach files"
+msgstr ""
+
+#: templates/admin/ticket/form.php:107
+#: templates/shortcodes/new-form/form.php:92
+#, php-format
+#@ aiosc
+msgid "You can attach up to %s files per ticket."
+msgstr ""
+
+#: templates/admin/ticket/form.php:114
+#: templates/shortcodes/new-form/form.php:99
+#@ aiosc
+msgctxt "File Upload"
+msgid "+ New File"
+msgstr ""
+
+#: templates/admin/ticket/form.php:120
+#: templates/admin/ticket/single/reply/form.php:75
+#: templates/shortcodes/new-form/form.php:105
+#: templates/shortcodes/single/reply/form.php:73
+#, php-format
+#@ aiosc
+msgid "Maximum number of attachments: <strong>%d</strong> | Maximum size per file: <strong>%s</strong> Kb"
+msgstr ""
+
+#: templates/admin/ticket/form.php:153
+#: templates/admin/ticket/list/page.php:229
+#: templates/admin/ticket/single/page.php:347
+#: templates/shortcodes/list/page.php:132
+#@ aiosc
+msgid "No users found"
+msgstr ""
+
+#: templates/admin/ticket/form.php:157
+#: templates/admin/ticket/list/page.php:233
+#: templates/admin/ticket/single/page.php:351
+#: templates/shortcodes/list/page.php:136
+#, php-format
+#@ aiosc
+msgid "Enter %d more characters."
+msgstr ""
+
+#: templates/admin/ticket/form.php:163
+#: templates/admin/ticket/list/page.php:239
+#: templates/admin/ticket/single/page.php:357
+#: templates/shortcodes/list/page.php:142
+#@ aiosc
+msgid "Searching..."
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:43
+#@ aiosc
+msgid "Screen Options Tab"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:46
+#@ aiosc
+msgid "Show tags"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:49
+#: templates/admin/ticket/list/table.php:229
+#: templates/shortcodes/list/table.php:142
+#@ aiosc
+msgid "Awaiting staff reply"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:52
+#: templates/admin/ticket/list/page.php:182
+#: templates/admin/ticket/list/table.php:232
+#: templates/shortcodes/list/page.php:96
+#: templates/shortcodes/list/table.php:145
+#@ aiosc
+msgid "Requested closure"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:58
+#@ aiosc
+msgid "Show columns"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:77
+#: templates/admin/ticket/list/table.php:86
+#: templates/admin/ticket/list/table.php:169
+#: templates/admin/ticket/single/page.php:56
+#: templates/admin/ticket/single/page.php:134
+#: templates/shortcodes/single/sidebar.php:37
+#@ aiosc
+msgid "Author"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:83
+#: templates/admin/ticket/list/table.php:102
+#: templates/admin/ticket/list/table.php:185
+#: templates/admin/ticket/single/page.php:185
+#: templates/shortcodes/list/table.php:60
+#: templates/shortcodes/list/table.php:110
+#: templates/shortcodes/single/sidebar.php:80
+#@ aiosc
+msgid "Last Update"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:91
+#@ aiosc
+msgid "Items per page"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:106
+#@ aiosc
+msgid "Screen Options"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:118
+#: templates/shortcodes/list/page.php:25
+#@ aiosc
+msgid "All"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:125
+#: templates/shortcodes/list/page.php:32
+#@ aiosc
+msgid "Search by #ID or term"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:126
+#: templates/shortcodes/list/page.php:33
+#@ aiosc
+msgid "Search"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:134
+#: templates/shortcodes/list/page.php:43
+#@ aiosc
+msgid "- Visibility -"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:136
+#: templates/admin/ticket/list/table-confirm.php:134
+#: templates/admin/ticket/single/page.php:60
+#: templates/admin/ticket/single/page.php:165
+#: templates/shortcodes/list/page.php:45
+#: templates/shortcodes/single/sidebar.php:61
+#@ aiosc
+msgid "Public"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:138
+#: templates/shortcodes/list/page.php:47
+#@ aiosc
+msgid "My Tickets"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:139
+#: templates/shortcodes/list/page.php:48
+#@ aiosc
+msgid "Public Tickets"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:144
+#: templates/shortcodes/list/page.php:56
+#@ aiosc
+msgid "- Priority -"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:152
+#: templates/shortcodes/list/page.php:66
+#@ aiosc
+msgid "- Department -"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:160
+#: templates/admin/ticket/list/page.php:161
+#: templates/shortcodes/list/page.php:75
+#: templates/shortcodes/list/page.php:76
+#@ aiosc
+msgid "- Author -"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:168
+#: templates/admin/ticket/list/page.php:169
+#: templates/shortcodes/list/page.php:83
+#: templates/shortcodes/list/page.php:84
+#@ aiosc
+msgid "- Operator -"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:174
+#: templates/shortcodes/list/page.php:89
+#@ aiosc
+msgid "Me"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:180
+#: templates/shortcodes/list/page.php:94
+#@ aiosc
+msgid "Only show tickets which require staff reply."
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:180
+#: templates/shortcodes/list/page.php:94
+#@ aiosc
+msgid "Awaiting reply"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:182
+#: templates/shortcodes/list/page.php:96
+#@ aiosc
+msgid "Only show tickets with requested closure."
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:185
+#: templates/shortcodes/list/page.php:100
+#@ aiosc
+msgid "Apply Filters"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:186
+#: templates/shortcodes/list/page.php:101
+#@ aiosc
+msgid "Reset"
+msgstr ""
+
+#: templates/admin/ticket/list/page.php:202
+#@ aiosc
+msgid "Quick Edit"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:19
+#, php-format
+#@ aiosc
+msgid "Confirm deletion of %d ticket"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:21
+#, php-format
+#@ aiosc
+msgid "Confirm deletion of %d tickets"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:24
+#@ aiosc
+msgid "Quick edit"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:35
+#@ aiosc
+msgid "Tickets to be deleted:"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:37
+#@ aiosc
+msgid "Tickets to be edited:"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:54
+#, php-format
+#@ aiosc
+msgid "Author: %s"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:55
+#, php-format
+#@ aiosc
+msgid "Assigned To: %s"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:62
+#@ aiosc
+msgid "Please <a href=\"%\">refresh</a> the page."
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:77
+#@ aiosc
+msgid "Department:"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:83
+#: templates/admin/ticket/list/table-confirm.php:101
+#: templates/admin/ticket/list/table-confirm.php:133
+#@ aiosc
+msgid "- Do not change -"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:85
+#, php-format
+#@ aiosc
+msgid "Assign to: %s"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:95
+#@ aiosc
+msgid "Priority:"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:103
+#, php-format
+#@ aiosc
+msgid "Set to: %s"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:127
+#@ aiosc
+msgid "Visibility:"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:142
+#@ aiosc
+msgid "Delete Attachments:"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:146
+#@ aiosc
+msgid "Yes, delete all attachments associated with this ticket"
+msgstr ""
+
+#: templates/admin/ticket/list/table-confirm.php:154
+#: templates/admin/ticket/single/page.php:264
+#@ aiosc
+msgid "Save Edits"
+msgstr ""
+
+#: templates/admin/ticket/list/table.php:225
+#: templates/shortcodes/list/table.php:138
+#@ aiosc
+msgid "View"
+msgstr ""
+
+#: templates/admin/ticket/list/table.php:235
+#: templates/shortcodes/list/table.php:148
+#@ aiosc
+msgid "Has attachment(s)"
+msgstr ""
+
+#: templates/admin/ticket/list/table.php:235
+#: templates/shortcodes/list/table.php:148
+#, php-format
+#@ aiosc
+msgid "Attachments: %s"
+msgstr ""
+
+#: templates/admin/ticket/list/table.php:240
+#@ aiosc
+msgid "Edit this ticket"
+msgstr ""
+
+#: templates/admin/ticket/list/table.php:245
+#@ aiosc
+msgid "Delete permanently this ticket"
+msgstr ""
+
+#: templates/admin/ticket/list/table.php:307
+#: templates/shortcodes/list/table.php:176
+#@ aiosc
+msgid "No tickets found."
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:81
+#@ aiosc
+msgid "You are currently in <code>TICKET EDIT MODE</code> so you cannot post replies."
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:89
+#@ aiosc
+msgid "More Details"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:91
+#: templates/shortcodes/single/sidebar.php:13
+#@ aiosc
+msgid "Details"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:104
+#@ aiosc
+msgid "Re-Open?"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:139
+#: templates/admin/ticket/single/page.php:149
+#: templates/shortcodes/single/sidebar.php:40
+#: templates/shortcodes/single/sidebar.php:49
+#@ aiosc
+msgid "View profile"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:162
+#: templates/shortcodes/single/sidebar.php:60
+#@ aiosc
+msgid "Visibility"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:175
+#: templates/shortcodes/single/sidebar.php:69
+#@ aiosc
+msgid "Open since"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:180
+#: templates/shortcodes/single/sidebar.php:75
+#@ aiosc
+msgid "Closed since"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:210
+#: templates/shortcodes/single/sidebar.php:107
+#@ aiosc
+msgid "Download"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:218
+#: templates/shortcodes/single/sidebar.php:115
+#, php-format
+#@ aiosc
+msgid "There are %d files attached with total size of %s Mb"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:247
+#: templates/shortcodes/single/sidebar.php:145
+#@ aiosc
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:251
+#: templates/admin/ticket/single/popup/reopen-ticket.php:5
+#: templates/shortcodes/single/popup/reopen-ticket.php:5
+#: templates/shortcodes/single/sidebar.php:149
+#@ aiosc
+msgid "Re-Open Ticket"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:254
+#: templates/shortcodes/single/sidebar.php:155
+#@ aiosc
+msgid "Request Closure"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:257
+#: templates/shortcodes/single/sidebar.php:152
+#@ aiosc
+msgid "Edit Mode"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:261
+#: templates/shortcodes/single/sidebar.php:159
+#@ aiosc
+msgid "Close (REQUESTED)"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:261
+#: templates/shortcodes/single/sidebar.php:159
+#@ aiosc
+msgid "Close"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:265
+#@ aiosc
+msgid "Exit"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:283
+#: templates/shortcodes/single/page.php:28
+#@ aiosc
+msgid "Untitled ticket"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:287
+#, php-format
+#@ aiosc
+msgid "Created by <a href=\"%s\">%s</a> on %s at %s"
+msgstr ""
+
+#: templates/admin/ticket/single/page.php:314
+#: templates/shortcodes/single/page.php:41
+#@ aiosc
+msgid "End of content"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/close-ticket.php:2
+#: templates/admin/ticket/single/popup/reopen-ticket.php:3
+#: templates/admin/ticket/single/popup/reply-edit.php:2
+#: templates/admin/ticket/single/popup/reply-remove.php:2
+#: templates/admin/ticket/single/popup/request-closure.php:2
+#: templates/shortcodes/single/popup/close-ticket.php:2
+#: templates/shortcodes/single/popup/reopen-ticket.php:3
+#: templates/shortcodes/single/popup/request-closure.php:2
+#@ aiosc
+msgid "Close popup"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/close-ticket.php:4
+#: templates/shortcodes/single/popup/close-ticket.php:4
+#@ aiosc
+msgid "Close ticket"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/close-ticket.php:24
+#: templates/shortcodes/single/popup/close-ticket.php:24
+#@ aiosc
+msgid "Send an e-mail notification telling customer his ticket was closed."
+msgstr ""
+
+#: templates/admin/ticket/single/popup/close-ticket.php:25
+#: templates/admin/ticket/single/popup/reopen-ticket.php:19
+#: templates/shortcodes/single/popup/close-ticket.php:25
+#: templates/shortcodes/single/popup/reopen-ticket.php:19
+#@ aiosc
+msgid "Send notification to customer."
+msgstr ""
+
+#: templates/admin/ticket/single/popup/reopen-ticket.php:13
+#: templates/shortcodes/single/popup/reopen-ticket.php:13
+#@ aiosc
+msgid "Are you sure you want to re-open on this ticket?"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/reopen-ticket.php:18
+#: templates/shortcodes/single/popup/reopen-ticket.php:18
+#@ aiosc
+msgid "Send an e-mail notification telling customer his ticket is open again."
+msgstr ""
+
+#: templates/admin/ticket/single/popup/reopen-ticket.php:21
+#: templates/admin/ticket/single/popup/reply-remove.php:16
+#: templates/admin/ticket/single/popup/request-closure.php:16
+#: templates/shortcodes/single/popup/reopen-ticket.php:21
+#: templates/shortcodes/single/popup/request-closure.php:16
+#@ aiosc
+msgid "Confirm"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/reopen-ticket.php:22
+#: templates/admin/ticket/single/popup/reply-remove.php:17
+#: templates/admin/ticket/single/popup/request-closure.php:17
+#: templates/shortcodes/single/popup/reopen-ticket.php:22
+#: templates/shortcodes/single/popup/request-closure.php:17
+#@ aiosc
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/reply-edit.php:4
+#@ aiosc
+msgid "Edit reply"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/reply-edit.php:25
+#@ aiosc
+msgid "Update Reply"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/reply-remove.php:4
+#@ aiosc
+msgid "Remove Reply"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/reply-remove.php:12
+#@ aiosc
+msgid "Are you sure you want to remove this reply?"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/request-closure.php:4
+#: templates/shortcodes/single/popup/request-closure.php:4
+#@ aiosc
+msgid "Request ticket closure"
+msgstr ""
+
+#: templates/admin/ticket/single/popup/request-closure.php:12
+#: templates/shortcodes/single/popup/request-closure.php:12
+#@ aiosc
+msgid "Are you sure you want to request closure on this ticket?"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/form.php:6
+#@ aiosc
+msgid "Click here to show reply form."
+msgstr ""
+
+#: templates/admin/ticket/single/reply/form.php:9
+#: templates/shortcodes/single/reply/form.php:5
+#@ aiosc
+msgid "Post new Reply"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/form.php:26
+#: templates/shortcodes/single/reply/form.php:24
+#@ aiosc
+msgid "- Select Pre-Made Response -"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/form.php:29
+#: templates/shortcodes/single/reply/form.php:27
+#@ aiosc
+msgid "My Responses"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/form.php:38
+#: templates/shortcodes/single/reply/form.php:36
+#@ aiosc
+msgid "Shared by others"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/form.php:69
+#: templates/shortcodes/single/reply/form.php:67
+#@ aiosc
+msgid "Attach file"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/form.php:82
+#: templates/shortcodes/single/reply/form.php:80
+#@ aiosc
+msgid "Post Reply"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/form.php:86
+#: templates/shortcodes/single/reply/form.php:85
+#@ aiosc
+msgid "Posting reply..."
+msgstr ""
+
+#: templates/admin/ticket/single/reply/list.php:20
+#: templates/shortcodes/single/reply/list.php:17
+#, php-format
+#@ aiosc
+msgid "There is %s reply posted on this ticket and last reply was posted by %s."
+msgid_plural "There are %s replies posted on this ticket and last reply was posted by %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/ticket/single/reply/list.php:22
+#: templates/shortcodes/single/reply/list.php:21
+#@ aiosc
+msgid "There are no replies yet."
+msgstr ""
+
+#: templates/admin/ticket/single/reply/list.php:38
+#: templates/shortcodes/single/reply/list.php:35
+#@ aiosc
+msgid "Load More"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/list.php:40
+#: templates/shortcodes/single/reply/list.php:37
+#@ aiosc
+msgid "No more replies"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/list.php:43
+#: templates/shortcodes/single/reply/list.php:40
+#@ aiosc
+msgid "No replies posted yet."
+msgstr ""
+
+#: templates/admin/ticket/single/reply/single.php:18
+#: templates/shortcodes/single/reply/single.php:18
+#@ aiosc
+msgid "This reply is being posted by Staff member."
+msgstr ""
+
+#: templates/admin/ticket/single/reply/single.php:18
+#: templates/shortcodes/single/reply/single.php:18
+#@ aiosc
+msgid "STAFF"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/single.php:24
+#@ aiosc
+msgid "Delete this reply"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/single.php:25
+#@ aiosc
+msgid "Edit this reply"
+msgstr ""
+
+#: templates/admin/ticket/single/reply/single.php:27
+#: templates/shortcodes/single/reply/single.php:23
+#, php-format
+#@ aiosc
+msgid "Posted by %s, %s - <em>%s at %s</em>"
+msgstr ""
+
+#: templates/admin/ticket/ticket-error.php:3
+#@ aiosc
+msgid "Error - Ticket Not Found"
+msgstr ""
+
+#: templates/admin/ticket/ticket-error.php:5
+#@ aiosc
+msgid "Ticket you are looking for doesn't exist or you don't have the right permission to access it."
+msgstr ""
+
+#: templates/admin/tools/general.php:12
+#@ aiosc
+msgid "Remove old SC roles"
+msgstr ""
+
+#: templates/admin/tools/general.php:14
+#@ aiosc
+msgid "If you had old Support Center (v1.3.9) installed, you should check this box."
+msgstr ""
+
+#: templates/admin/tools/general.php:18
+#: templates/admin/tools/general.php:35
+#, php-format
+#@ aiosc
+msgid "This option is not available because you have more than %d users (%d to be more precise) and updating all users at once would affect server performance and produce unexpected results."
+msgstr ""
+
+#: templates/admin/tools/general.php:23
+#@ aiosc
+msgid "Yes, get rid of old Support Center roles."
+msgstr ""
+
+#: templates/admin/tools/general.php:29
+#@ aiosc
+msgid "Update Current Roles"
+msgstr ""
+
+#: templates/admin/tools/general.php:31
+#@ aiosc
+msgid "Mass-Update current roles for all users (except staff members)."
+msgstr ""
+
+#: templates/admin/tools/general.php:39
+#@ aiosc
+msgid "- Select role -"
+msgstr ""
+
+#: templates/admin/tools.php:5
+#@ aiosc
+msgid "Here are some AIOSC tools that we found useful they may be of use for you too."
+msgstr ""
+
+#: templates/shortcodes/list/error.php:7
+#: templates/shortcodes/new-form/error.php:6
+#: templates/shortcodes/single/error.php:7
+#@ aiosc
+msgid "Username"
+msgstr ""
+
+#: templates/shortcodes/list/error.php:8
+#: templates/shortcodes/new-form/error.php:7
+#: templates/shortcodes/single/error.php:8
+#@ aiosc
+msgid "Password"
+msgstr ""
+
+#: templates/shortcodes/list/error.php:9
+#: templates/shortcodes/new-form/error.php:8
+#: templates/shortcodes/single/error.php:9
+#@ aiosc
+msgid "Remember Me"
+msgstr ""
+
+#: templates/shortcodes/list/error.php:10
+#: templates/shortcodes/new-form/error.php:9
+#: templates/shortcodes/single/error.php:10
+#@ aiosc
+msgid "Log In"
+msgstr ""
+
+#: templates/shortcodes/list/error.php:24
+#@ aiosc
+msgid "<strong>Error:</strong> You do not have permission to view this list."
+msgstr ""
+
+#: templates/shortcodes/list/error.php:28
+#: templates/shortcodes/single/error.php:37
+#, php-format
+#@ aiosc
+msgid "« Go back to <a href=\"%s\">Home</a>"
+msgstr ""
+
+#: templates/shortcodes/list/error.php:33
+#@ aiosc
+msgid "In order to view this list, you must login with your account first."
+msgstr ""
+
+#: templates/shortcodes/list/error.php:39
+#: templates/shortcodes/new-form/error.php:35
+#: templates/shortcodes/single/error.php:49
+#, php-format
+#@ aiosc
+msgid "Don't have an account yet? <a href='%s'>Register Now!</a>"
+msgstr ""
+
+#: templates/shortcodes/list/error.php:43
+#: templates/shortcodes/new-form/error.php:39
+#: templates/shortcodes/single/error.php:53
+#@ aiosc
+msgid "<strong>Note:</strong> Registrations for new users are closed."
+msgstr ""
+
+#: templates/shortcodes/new-form/error.php:23
+#@ aiosc
+msgid "<strong>Error:</strong> You do not have permission to create new tickets."
+msgstr ""
+
+#: templates/shortcodes/new-form/error.php:29
+#@ aiosc
+msgid "In order to create new ticket, you must login with your account first."
+msgstr ""
+
+#: templates/shortcodes/single/error.php:25
+#@ aiosc
+msgid "<strong>Error:</strong> You do not have permission to view this ticket."
+msgstr ""
+
+#: templates/shortcodes/single/error.php:29
+#@ aiosc
+msgid "<strong>Error:</strong> Ticket you are trying to view does not exist."
+msgstr ""
+
+#: templates/shortcodes/single/error.php:35
+#, php-format
+#@ aiosc
+msgid "« Go back to <a href=\"%s\">List</a>"
+msgstr ""
+
+#: templates/shortcodes/single/error.php:43
+#@ aiosc
+msgid "In order to view this ticket, you must login with your account first."
+msgstr ""
+
+#: templates/shortcodes/single/page.php:30
+#, php-format
+#@ aiosc
+msgid "Created by <a href=\"%s\">%s</a> on %s"
+msgstr ""
+
+#: templates/admin/install.php:8
+#: templates/admin/install.php:20
+#, php-format
+#@ aiosc
+msgid "You either have more than %d users already registered or you had < 2.1.2 version installed."
+msgstr ""
+

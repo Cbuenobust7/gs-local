@@ -1,0 +1,67 @@
+.aiosc-installer-controls {
+    margin-top: 20px;
+}
+.diwave-pbar {
+    position: relative;
+    margin: 15px 0;
+    height:5px;
+    overflow: hidden;
+    background: #eee;
+    border-radius: 5px;
+}
+.diwave-pbar-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #546273;
+}
+.diwave-pbar-indicator:after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-image:
+    -webkit-gradient(linear, 0 0, 100% 100%,
+    color-stop(.25, rgba(255, 255, 255, .3)),
+    color-stop(.25, transparent), color-stop(.5, transparent),
+    color-stop(.5, rgba(255, 255, 255, .3)),
+    color-stop(.75, rgba(255, 255, 255, .3)),
+    color-stop(.75, transparent), to(transparent)
+    );
+    background-image:
+    -moz-linear-gradient(
+            -45deg,
+            rgba(255, 255, 255, .2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, .2) 50%,
+            rgba(255, 255, 255, .2) 75%,
+            transparent 75%,
+            transparent
+    );
+    z-index: 1;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    background-size: 50px 50px;
+    -webkit-animation: move 3s linear infinite;
+    -moz-animation: move 3s linear infinite;
+    overflow: hidden;
+}
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@-moz-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}

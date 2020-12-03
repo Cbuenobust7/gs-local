@@ -1,0 +1,820 @@
+.aiosc-form-response {
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    display: none;
+}
+.aiosc-form-response p {
+    padding: 10px;
+    margin: 0;
+}
+.aiosc-form-response code {
+    background: #fff;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.aiosc-form-response.error {
+    color: #B14B4B;
+    background: #f3d6d3;
+    border-color: #d39e9e;
+}
+.aiosc-form-response.updated {
+    background: #D3F1D3;
+    color: green;
+    border-color: #88C488;
+}
+.aiosc-form-response.warning {
+    background: #f1eac8;
+    color: #7e7723;
+    border-color: #c1c489;
+
+}
+.aiosc-cholder .wp-editor-wrap {
+    border: 1px solid #bbb;
+    overflow: hidden;
+}
+.aiosc-cholder {
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.aiosc-cholder input {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.aiosc-cholder label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.aiosc-ticket-row-controls .row-actions {
+    display: inline-block;
+    vertical-align: middle;
+}
+.aiosc-ticket-row-controls .aiosc-attachment-icon {
+    margin: 5px 5px 5px 0;
+    vertical-align: middle;
+    background: url('img/mimetypes/default.png') no-repeat 5px center;
+    background-color: #f9f9f9;
+    line-height: 22px;
+    height: 22px;
+    display: inline-block;
+    font-size: 11px;
+    border-radius: 2px;
+    padding: 0 5px 0 25px;
+}
+.aiosc-ticket-row-controls .aiosc-label {
+    margin: 5px 5px 5px 0;
+    background: #f9f9f9;
+    color: #555;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+    border-radius: 2px;
+    line-height: 22px;
+    height: 22px;
+}
+tr.alternate .aiosc-ticket-row-controls .aiosc-label {
+    background: #fff;
+}
+.aiosc-label.aiosc-label-closure,
+tr.alternate .aiosc-ticket-row-controls .aiosc-label.aiosc-label-closure {
+    background: #ebffe5;
+    color: #728f6f;
+}
+tr.alternate .aiosc-ticket-row-controls .aiosc-attachment-icon {
+    background-color: #fff;
+}
+/** Content Styling */
+.aiosc-ticket-content {
+    overflow: auto;
+}
+.aiosc-ticket-content ul,
+.aiosc-reply-content ul {
+    list-style: disc;
+    margin-left: 2em;
+}
+
+.aiosc-ticket-content pre,
+.aiosc-reply-content pre {
+    background: #f8f8f8;
+    padding: 5px 10px;
+    border-left: 3px solid #ddd;
+}
+.aiosc-ticket-content h1,
+.aiosc-ticket-content h2,
+.aiosc-ticket-content h3,
+.aiosc-ticket-content h4,
+.aiosc-reply-content h1,
+.aiosc-reply-content h2,
+.aiosc-reply-content h3,
+.aiosc-reply-content h4 {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+/** REPLIES */
+.aiosc-reply-form {
+    position: relative;
+}
+.aiosc-loading-bar > span {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 11px;
+    color: #999;
+}
+.aiosc-loading-holder {
+    padding-top: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    display: none;
+}
+.aiosc-reply-form .aiosc-loading-holder {
+    padding-top: 170px;
+}
+.aiosc-loading-bar {
+    background: url('img/loading_bar.gif') no-repeat center bottom;
+    min-height: 15px;
+    width: 100px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.aiosc-reply-loading.aiosc-loading-bar {
+    display: none;
+}
+.aiosc-reply {
+    overflow: hidden;
+    position: relative;
+    min-height: 60px;
+}
+.aiosc-reply-avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.aiosc-reply-main {
+    margin-left: 60px;
+}
+.aiosc-reply-head {
+    border-bottom: 1px solid #eee;
+    background: #f8f8f8;
+    padding: 5px;
+}
+.aiosc-reply-head .dashicons {
+    float: right;
+    cursor: pointer;
+}
+.aiosc-reply-head .dashicons:hover {
+    color: #1e8cbe;
+}
+#aiosc-replies-no-more {
+    display: none;
+    color: #888;
+    text-align: center;
+    padding: 10px;
+}
+#aiosc-replies-load-more {
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    clear: both;
+    display: block;
+}
+.aiosc-reply-meta {
+    border: 1px solid #eee;
+    background: #f8f8f8;
+    padding: 5px;
+    margin-top: 20px;
+}
+.aiosc-reply-meta ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+}
+.aiosc-reply-meta ul li {
+    margin: 3px;
+    display: inline-block;
+    line-height: normal;
+}
+.aiosc-reply-meta ul li img {
+    vertical-align: middle;
+}
+.aiosc-reply-content {
+    padding: 15px 5px;
+}
+.aiosc-staff-ribbon {
+    background: #1e8cbe;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    height: auto;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 3px 0;
+    line-height: 12px;
+}
+
+/** Uploader **/
+.aiosc-uploader {
+
+}
+.aiosc-uploader.aiosc-uploader-compact  {
+    padding: 10px 0;
+}
+.aiosc-uploader ul.aiosc-uploader-files {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+}
+.aiosc-uploader ul.aiosc-uploader-files li {
+    display: block;
+    float: left;
+    width: 128px;
+    height: 80px;
+    border: 1px solid #eee;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    background: #f8f8f8;
+    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.aiosc-uploader.aiosc-uploader-compact ul.aiosc-uploader-files li {
+    width: auto;
+    height: auto;
+    background: none;
+    border: 1px solid #ddd;
+}
+.aiosc-uploader.aiosc-uploader-compact ul.aiosc-uploader-files li a {
+    text-decoration: none;
+}
+.aiosc-uploader ul.aiosc-uploader-files li input {
+    position: absolute;
+    left: -9000px;
+}
+
+.aiosc-uploader ul.aiosc-uploader-files li span {
+    position: absolute;
+    font-size: 13px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    background: rgba(255,255,255,0.5);
+    padding: 5px;
+    word-break: break-all;
+    color: #777;
+}
+.aiosc-uploader.aiosc-uploader-compact ul.aiosc-uploader-files li span {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    top: auto;
+    right: auto;
+    background: transparent;
+    padding: 8px 10px;
+    display: block;
+}
+.aiosc-uploader ul.aiosc-uploader-files li.aiosc-uploader-browse {
+    cursor: pointer;
+}
+.aiosc-uploader ul.aiosc-uploader-files li.aiosc-uploader-browse:hover {
+    background: #fdfdfd;
+}
+.aiosc-uploader ul.aiosc-uploader-files li i.dashicons.mainicon {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    top: 10px;
+    left: 50%;
+    margin-left: -15px;
+    position: absolute;
+    color: #ddd;
+}
+.aiosc-uploader.aiosc-uploader-compact ul.aiosc-uploader-files li i.dashicons.mainicon {
+    display: none;
+}
+.aiosc-uploader ul.aiosc-uploader-files li i.dashicons.dashicons-no {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    display: none;
+    z-index: 5;
+}
+.aiosc-uploader.aiosc-uploader-compact ul.aiosc-uploader-files li i.dashicons.dashicons-no {
+    height: 18px;
+}
+.aiosc-uploader ul.aiosc-uploader-files li:hover i.dashicons.dashicons-no {
+    display: block;
+}
+.aiosc-window {
+    margin-bottom: 30px;
+}
+.aiosc-ticket-sidebar .aiosc-ticket-id {
+    font-weight: bolder;
+    text-align: center;
+    background: #f2f2f2;
+    display: block;
+    padding: 3px 0;
+    border-radius: 2px;
+    line-height: normal;
+}
+.aiosc-ticket-sidebar .aiosc-window {
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    padding: 10px;
+}
+.aiosc-window table td,
+.aiosc-window table tr,
+.aiosc-window table th,
+.aiosc-window table {
+    border: none;
+    margin: 0;
+}
+/** TICKET PREVIEW PAGE **/
+.aiosc-ticket-preview {
+    overflow: hidden;
+    clear: both;
+}
+.aiosc-ticket-preview .aiosc-ticket-main {
+    float: left;
+    vertical-align: top;
+    width: 65.104166667%;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.aiosc-ticket-preview .aiosc-ticket-sidebar {
+    float: right;
+    vertical-align: top;
+    width: 26.041666667%;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.aiosc-separator {
+    height: 1px;
+    margin: 20px 0;
+    clear: both;
+    background: #ddd;
+}
+.aiosc-ticket-preview .aiosc-title {
+    font-weight: normal;
+    margin: 0;
+    line-height: normal;
+}
+.aiosc-ticket-preview .aiosc-title span {
+    display: block;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 5px;
+    color: #888;
+}
+.aiosc-ticket-preview .wp-editor-tools select {
+    margin-bottom: 0;
+    padding: 3px 2px;
+    vertical-align: top;
+}
+.aiosc-ticket-preview .wp-editor-tools button {
+    vertical-align: top;
+    margin-bottom: 0;
+}
+.aiosc-ticket-preview .wp-editor-container {
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.aiosc-eot {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+.aiosc-eot:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+}
+.aiosc-eot span {
+    background: #f1f1f1;
+    position: relative;
+    display: inline-block;
+    font-size: 11px;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+.aiosc-ticket-content p,
+.aiosc-reply-content p {
+    margin-bottom: 10px;
+}
+.aiosc-status {
+    display: inline-block;
+    padding: 3px 10px;
+    line-height: normal;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #fff;
+}
+.aiosc-status.aiosc-status-queue {
+    background: #9AD15F;
+}
+.aiosc-status.aiosc-status-open {
+    background: #52A7D8;
+}
+.aiosc-status.aiosc-status-closed {
+    background: #D15F5F;
+}
+.aiosc-priority-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    line-height: normal;
+    border-radius: 2px;
+}
+/** Popups */
+.aiosc-popup-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+.aiosc-popup {
+    z-indeX: 100000;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    background: #fff;
+    border: 5px solid #1e8cbe;
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.3);
+    width: 600px;
+    margin: 0 0 0 -320px;
+    padding: 10px;
+    display: none;
+}
+.aiosc-popup.aiosc-request-closure-popup {
+    width: 400px;
+    margin-left: -220px;
+}
+.aiosc-popup .aiosc-popup-header {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.aiosc-popup .aiosc-popup-controls {
+    padding: 10px;
+    margin: -10px;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    background: #f9f9f9;
+    text-align: right;
+}
+.aiosc-popup .aiosc-popup-x {
+    position: absolute;
+    background: #1e8cbe;
+    display: block;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.aiosc-popup .aiosc-popup-x:hover {
+    color: #1e8cbe;
+    background: #ddd;
+}
+
+.admin-color-blue .aiosc-popup-x,
+.admin-color-blue .aiosc-edit-mode-notice,
+.admin-color-blue .aiosc-staff-ribbon { background: #e1a948; }
+.admin-color-blue .aiosc-popup-x:hover { color: #e1a948; }
+.admin-color-blue .aiosc-popup { border-color: #e1a948; }
+
+.admin-color-coffee .aiosc-popup-x,
+.admin-color-coffee .aiosc-edit-mode-notice,
+.admin-color-coffee .aiosc-staff-ribbon { background: #bf9878; }
+.admin-color-coffee .aiosc-popup-x:hover { color: #bf9878; }
+.admin-color-coffee .aiosc-popup { border-color: #bf9878; }
+
+.admin-color-ectoplasm .aiosc-popup-x,
+.admin-color-ectoplasm .aiosc-edit-mode-notice,
+.admin-color-ectoplasm .aiosc-staff-ribbon { background: #a3b745; }
+.admin-color-ectoplasm .aiosc-popup-x:hover { color: #a3b745; }
+.admin-color-ectoplasm .aiosc-popup { border-color: #a3b745; }
+
+.admin-color-midnight .aiosc-popup-x,
+.admin-color-midnight .aiosc-edit-mode-notice,
+.admin-color-midnight .aiosc-staff-ribbon { background: #dd362d; }
+.admin-color-midnight .aiosc-popup-x:hover { color: #dd362d; }
+.admin-color-midnight .aiosc-popup { border-color: #dd362d; }
+
+.admin-color-ocean .aiosc-popup-x,
+.admin-color-ocean .aiosc-edit-mode-notice,
+.admin-color-ocean .aiosc-staff-ribbon { background: #9ebaa0; }
+.admin-color-ocean .aiosc-popup-x:hover { color: #9ebaa0; }
+.admin-color-ocean .aiosc-popup { border-color: #9ebaa0; }
+
+.admin-color-sunrise .aiosc-popup-x,
+.admin-color-sunrise .aiosc-edit-mode-notice,
+.admin-color-sunrise .aiosc-staff-ribbon { background: #dd823b; }
+.admin-color-sunrise .aiosc-popup-x:hover { color: #dd823b; }
+.admin-color-sunrise .aiosc-popup { border-color: #dd823b; }
+
+/** Tabs **/
+.aiosc-tabs {
+    overflow: hidden;
+    margin: 0 0 15px 0;
+    padding: 0;
+    list-style: none !important;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.aiosc-tabs li {
+    float: left;
+    padding: 5px 15px;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: lighter;
+    background: #f8f8f8;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: -1px;
+    color: #888;
+}
+.aiosc-tabs li.active,
+.aiosc-tabs li.active:hover {
+    background: #fff;
+    color: #2ea2cc;;
+}
+.aiosc-tabs li:hover {
+    color: #000;
+}
+.aiosc-subtabs {
+    overflow: hidden;
+    margin: 15px 0 20px 0;
+    padding: 0;
+    list-style: none !important;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.aiosc-subtabs li {
+    float: left;
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: lighter;
+    background: #f8f8f8;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: -1px;
+    color: #888;
+}
+.aiosc-subtabs li.active,
+.aiosc-subtabs li.active:hover {
+    background: #fff;
+    color: #2ea2cc;;
+}
+.aiosc-subtabs li:hover {
+    color: #000;
+}
+tr.deps-for-deletion td {
+    padding: 0;
+}
+
+/** Tickets Table */
+.aiosc-search-box {
+    position: relative;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.aiosc-search-box > input[type="text"] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    padding: 0 40px 0 10px;
+    line-height: 30px;
+    height: 100%;
+}
+.aiosc-search-box > button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    bottom: 0;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+}
+.aiosc-search-box > button > i {
+    line-height: 30px;
+    height: 30px;
+    display: block;
+    width: 30px;
+    text-align: center;
+}
+.aiosc-ticket-list {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+.select2-container,
+.select2-container input {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+.aiosc-ticket-list input,
+.aiosc-ticket-list textarea,
+.aiosc-ticket-list select {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+.aiosc-ticket-list table {
+    border: 1px solid #eee;
+    clear: both;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+}
+.aiosc-ticket-list table td,
+.aiosc-ticket-list table th {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+    text-align: center;
+    line-height: 1.2;
+}
+.aiosc-ticket-list table .alternate td,
+.aiosc-ticket-list table .alternate th {
+    background: rgba(0,0,0,0.02);
+}
+.aiosc-ticket-list table thead a,
+.aiosc-ticket-list table tfoot a {
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    font-size: 13px;
+}
+.aiosc-ticket-list table .column-date_created {
+    text-align: right;
+}
+.aiosc-ticket-list table .column-subject {
+    text-align: left;
+}
+.aiosc-ticket-list table .aiosc-no-items {
+    text-align: left;
+}
+.aiosc-ticket-list .tablenav {
+    overflow: hidden;
+    float: left;
+}
+.aiosc-ticket-list .aiosc-tab-content .tablenav  {
+    float: right;
+}
+.aiosc-filters .select2-container .select2-selection--single {
+    height: 26px;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-color: #ddd;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07) inset;
+}
+.aiosc-filters .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 26px;
+}
+.aiosc-filters .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 1px;
+}
+.aiosc-filters .select2-container {
+    vertical-align: top;
+}
+.aiosc-filters .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #32373C;
+}
+.aiosc-filter-cholder {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+    vertical-align: top;
+}
+.aiosc-filter-cholder select,
+.aiosc-filter-cholder input {
+    display: block;
+}
+.aiosc-filter-cholder input[type="radio"],
+.aiosc-filter-cholder input[type="checkbox"] {
+    display: inline;
+    vertical-align: middle;
+}
+.aiosc-clear {
+    clear: both;
+}
+/* Pagination */
+.aiosc-pagination {
+    display: block;
+    overflow: hidden;
+    padding: 3px 0;
+    margin-bottom: 5px;
+    color: #999;
+}
+.aiosc-pagination .pagination-links a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: #eee;
+    border: 1px solid #ddd;
+    padding: 6px 10px;
+    line-height: 15px;
+    text-decoration: none !important;
+    font-size: 15px;
+}
+.aiosc-pagination .pagination-links a:hover {
+    background: #fff;
+    border-color: #eee;
+}
+.aiosc-pagination input[type="text"] {
+    border-radius: 0;
+    line-height: 15px;
+    margin: 0;
+    text-align: center;
+    padding: 3px 5px;
+    font-size: 15px;
+}
+
+.aiosc-pagination .paging-input {
+    margin: 0 5px;
+}
+.aiosc-filter-checks {
+    margin-left: 10px;
+}
+.aiosc-filter-buttons {
+    display: block;
+    margin-top: 10px;
+}
+.aiosc-filter-buttons button {
+    padding: 5px 15px;
+    height: auto;
+}
+@media screen and (max-width: 800px) {
+    .aiosc-filter-checks {
+        margin-left: 0;
+    }
+    .aiosc-filter-cholder {
+        display: block;
+        width: 100% !important;
+    }
+    .aiosc-filter-cholder select {
+        width: 100%;
+    }
+    .aiosc-filter-cholder {
+
+    }
+}
