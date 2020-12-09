@@ -44,7 +44,7 @@ class Property_Price extends Widget_Base {
 		$this->add_control(
             'hide_second_price',
             [
-                'label' => esc_html__( 'Hide Second Price', 'houzez-theme-functionality' ),
+                'label' => esc_html__( 'Hide Promotional Price', 'houzez-theme-functionality' ),
                 'type' => Controls_Manager::SWITCHER,
                 'label_on' => esc_html__( 'Yes', 'houzez-theme-functionality' ),
                 'label_off' => esc_html__( 'No', 'houzez-theme-functionality' ),
@@ -168,7 +168,7 @@ class Property_Price extends Widget_Base {
 		$this->add_control(
 			'item_sub_price_heading',
 			[
-				'label' => __( 'Second Price', 'houzez-theme-functionality' ),
+				'label' => __( 'Promotional Price', 'houzez-theme-functionality' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]

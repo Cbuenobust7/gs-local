@@ -47,7 +47,7 @@ class Houzez_Property_Details_Control extends \Elementor\Base_Control {
 			'property_bedrooms'   => esc_html__('Property Bedrooms', 'houzez-theme-functionality'),
 			'property_bathrooms'  => esc_html__('Property Bathrooms', 'houzez-theme-functionality'),
 			'property_garage'     => esc_html__('Property Garages', 'houzez-theme-functionality'),
-			'property_garage_size'=> esc_html__('Property Garage Size', 'houzez-theme-functionality'),
+			'property_garage_size'=> esc_html__('Property Estacionamiento Size', 'houzez-theme-functionality'),
 			'property_year'       => esc_html__('Property Year Built', 'houzez-theme-functionality'),
 			'property_status'     => esc_html__('Property Status', 'houzez-theme-functionality'),
 			'property_type'       => esc_html__('Property Type', 'houzez-theme-functionality'),

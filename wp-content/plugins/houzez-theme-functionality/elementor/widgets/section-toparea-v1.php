@@ -430,7 +430,7 @@ class Property_Toparea extends Widget_Base {
         $this->add_control(
             'item_sub_price_heading',
             [
-                'label' => __( 'Second Price', 'houzez-theme-functionality' ),
+                'label' => __( 'Promotional Price', 'houzez-theme-functionality' ),
                 'type' => Controls_Manager::HEADING,
                 'separator' => 'before',
             ]

@@ -276,9 +276,9 @@ class Property_Section_Details extends Widget_Base {
         $this->add_control(
             'garage_title',
             [
-                'label' => esc_html__( 'Garage', 'houzez-theme-functionality' ),
+                'label' => esc_html__( 'Estacionamiento', 'houzez-theme-functionality' ),
                 'type' => Controls_Manager::TEXT,
-                'default' => 'Garage',
+                'default' => 'Estacionamiento',
             ]
         );
         $this->add_control(
@@ -293,9 +293,9 @@ class Property_Section_Details extends Widget_Base {
         $this->add_control(
             'garage_size_title',
             [
-                'label' => esc_html__( 'Garage Size', 'houzez-theme-functionality' ),
+                'label' => esc_html__( 'Estacionamiento Size', 'houzez-theme-functionality' ),
                 'type' => Controls_Manager::TEXT,
-                'default' => 'Garage Size',
+                'default' => 'Estacionamiento Size',
             ]
         );
 

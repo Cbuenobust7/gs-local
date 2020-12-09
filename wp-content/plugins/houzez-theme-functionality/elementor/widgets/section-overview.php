@@ -45,7 +45,7 @@ class Property_Overview extends Widget_Base {
             'property_bathrooms' => esc_html__( 'Bathrooms', 'houzez-theme-functionality' ),
             'property_size' => esc_html__( 'Area Size', 'houzez-theme-functionality' ),
             'property_land' => esc_html__( 'Land Area', 'houzez-theme-functionality' ),
-            'property_garage' => esc_html__( 'Garages', 'houzez-theme-functionality' ),
+            'property_garage' => esc_html__( 'Estacionamiento', 'houzez-theme-functionality' ),
             'property_year' => esc_html__( 'Built Year', 'houzez-theme-functionality' ),
             'property_status' => esc_html__( 'Property Status', 'houzez-theme-functionality' ),
             'property_id' => esc_html__( 'Property ID', 'houzez-theme-functionality' ),
@@ -204,7 +204,7 @@ class Property_Overview extends Widget_Base {
                     [
                         '_id' => 'property_garage',
                         'field_type' => 'property_garage',
-                        'label_singular' => esc_html__( 'Garage', 'houzez-theme-functionality' ),
+                        'label_singular' => esc_html__( 'Estacionamiento', 'houzez-theme-functionality' ),
                         'label_plural' => esc_html__( 'Garages', 'houzez-theme-functionality' ),
                         'icon_type' => 'theme_options',
                     ],

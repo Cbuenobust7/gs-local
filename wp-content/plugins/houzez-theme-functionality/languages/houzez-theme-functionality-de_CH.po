@@ -943,7 +943,7 @@ msgstr ""
 #~ msgid "Eg: 557000"
 #~ msgstr "z.B.: 557000"
 
-#~ msgid "Second Price ( Display optional price for rental or square feet )"
+#~ msgid "Promotional Price ( Display optional price for rental or square feet )"
 #~ msgstr "Mietpreis"
 
 #~ msgid "Eg: 700"
